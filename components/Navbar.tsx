@@ -39,7 +39,7 @@ const Navbar = () => {
     <div>
       <div className={styles.navbar}>
         <div className={styles.navcontent}>
-          <div>
+          <div className={styles.logo}>
             <Image src={logo} alt="logo" />
           </div>
 
@@ -48,7 +48,9 @@ const Navbar = () => {
           </div>
 
           <div>
-            <button>Contact us</button>
+            <button type="button" className={styles.contact}>
+              contact us
+            </button>
           </div>
         </div>
       </div>

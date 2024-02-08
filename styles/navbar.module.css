@@ -21,6 +21,15 @@
 }
 
 .navlist {
-  margin: 0.5rem;
+  margin: 0.8rem;
   font-weight: bold;
+}
+
+.contact {
+  width: 6.5rem;
+  height: 2rem;
+  background-color: #b4dfa1;
+  border: 1px solid transparent;
+  font-weight: bold;
+  text-transform: uppercase;
 }
