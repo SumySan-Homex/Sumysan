@@ -1,6 +1,26 @@
 .navbar {
   width: 100%;
-  height: 50%;
+  height: 8rem;
   border-radius: 1px solid red;
   background-color: #51a22d;
+}
+
+.navcontent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 1.4rem;
+}
+
+.navlinks {
+  display: flex;
+  flex-direction: row;
+  margin: 1.5rem;
+  list-style: none;
+}
+
+.navlist {
+  margin: 0.5rem;
+  font-weight: bold;
 }

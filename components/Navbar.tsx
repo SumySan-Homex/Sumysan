@@ -7,26 +7,26 @@ import Link from "next/link";
 const Navlinks = () => {
   return (
     <nav>
-      <ul>
-        <li>
+      <ul className={styles.navlinks}>
+        <li className={styles.navlist}>
           <Link href="">Products/Services</Link>
         </li>
-        <li>
+        <li className={styles.navlist}>
           <Link href="">Career Opportunities</Link>
         </li>
-        <li>
+        <li className={styles.navlist}>
           <Link href="">Whitepaper</Link>
         </li>
-        <li>
+        <li className={styles.navlist}>
           <Link href="">Legal Pages</Link>
         </li>
-        <li>
+        <li className={styles.navlist}>
           <Link href="">About Us</Link>
         </li>
-        <li>
+        <li className={styles.navlist}>
           <Link href="">Blog</Link>
         </li>
-        <li>
+        <li className={styles.navlist}>
           <Link href="">FAQs</Link>
         </li>
       </ul>
@@ -38,11 +38,18 @@ const Navbar = () => {
   return (
     <div>
       <div className={styles.navbar}>
-        <div>
-          <Image src={logo} alt="logo" />
-        </div>
-        <div>
-          <Navlinks />
+        <div className={styles.navcontent}>
+          <div>
+            <Image src={logo} alt="logo" />
+          </div>
+
+          <div>
+            <Navlinks />
+          </div>
+
+          <div>
+            <button>Contact us</button>
+          </div>
         </div>
       </div>
     </div>
