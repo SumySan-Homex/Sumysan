@@ -1,0 +1,20 @@
+.container {
+  position: relative;
+}
+
+.card {
+  margin-top: 2rem;
+  width: 70rem;
+  height: 92.4rem;
+  border: 1px solid black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* .images {
+  position: relative;
+} */
