@@ -10,13 +10,13 @@ const About = () => {
       <div className={styles.container}>
         <div className={styles.card}>
           <div className={styles.cardContents}>
-            <h2>Revolutionizing Real Estate</h2>
+            <h2 className={styles.header}>Revolutionizing</h2>
+            <h2 className={styles.header}>Real Estate</h2>
 
             <p>
               Sumysan is reshaping real estate through advanced technology. Our
               mission is
-            </p>
-            <p>
+              <br />
               clear: to make real estate transactions efficient, secure, and
               accessible to all
             </p>
