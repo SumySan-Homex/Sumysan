@@ -21,7 +21,9 @@ const About = () => {
               accessible to all
             </p>
 
-            <button type="button">Read More</button>
+            <button type="button" className={styles.button}>
+              Read More
+            </button>
           </div>
         </div>
 

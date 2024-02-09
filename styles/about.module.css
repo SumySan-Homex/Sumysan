@@ -35,3 +35,12 @@
   font-weight: 700;
   font-size: large;
 }
+
+.button {
+  margin: 2rem;
+  width: 6.5rem;
+  height: 2.5rem;
+  background-color: #b4dfa1;
+  border: none;
+  font-weight: bolder;
+}
