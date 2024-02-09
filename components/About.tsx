@@ -30,7 +30,7 @@ const About = () => {
                 <h2 className={styles.header2}>Our Vision:</h2>
 
                 <p className={styles.desc2}>
-                  Welcome the future of real estate. At Sumysan, we
+                  Welcome to the future of real estate. At Sumysan, we
                   <br />
                   envision a world where property transactions are seamless
                   <br />
