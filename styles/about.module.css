@@ -20,6 +20,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 50rem;
   margin: 6rem;
 }
 
@@ -43,4 +44,25 @@
   background-color: #b4dfa1;
   border: none;
   font-weight: bolder;
+}
+
+.miniCard {
+  width: 60rem;
+  height: 15rem;
+  border: none;
+  margin-top: 5rem;
+  background-color: rgba(10, 10, 10, 0.5);
+}
+
+.miniContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 2rem;
+}
+
+.header2 {
+  color: white;
+  font-weight: 400;
 }

@@ -10,7 +10,7 @@ const About = () => {
       <div className={styles.container}>
         <div className={styles.card}>
           <div className={styles.cardContents}>
-            <h2 className={styles.header}>Revolutionizing</h2>
+            <h1 className={styles.header}>Revolutionizing</h1>
             <h2 className={styles.header}>Real Estate</h2>
 
             <p className={styles.desc}>
@@ -24,6 +24,22 @@ const About = () => {
             <button type="button" className={styles.button}>
               Read More
             </button>
+
+            <div className={styles.miniCard}>
+              <div className={styles.miniContent}>
+                <h2 className={styles.header2}>Our Vision:</h2>
+
+                <p>
+                  Welcome the future of real estate. At Sumysan, we
+                  <br />
+                  envision a world where property transactions are seamless
+                  <br />
+                  and transparent
+                </p>
+
+                <button type="button">Learn More</button>
+              </div>
+            </div>
           </div>
         </div>
 
