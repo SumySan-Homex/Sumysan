@@ -9,8 +9,20 @@ const About = () => {
     <div>
       <div className={styles.container}>
         <div className={styles.card}>
-          <h2>Card Title</h2>
-          <p>Card Content</p>
+          <div className={styles.cardContents}>
+            <h2>Revolutionizing Real Estate</h2>
+
+            <p>
+              Sumysan is reshaping real estate through advanced technology. Our
+              mission is
+            </p>
+            <p>
+              clear: to make real estate transactions efficient, secure, and
+              accessible to all
+            </p>
+
+            <button type="button">Read More</button>
+          </div>
         </div>
 
         <div className={styles.images}>
