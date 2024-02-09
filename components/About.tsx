@@ -43,7 +43,21 @@ const About = () => {
               </div>
             </div>
 
-            <div className={styles.miniCard2}></div>
+            <div className={styles.miniCard2}>
+              <div className={styles.miniContent}>
+                <h2 className={styles.header2}>Explore our services:</h2>
+
+                <p className={styles.desc2}>
+                  Discover how Sumysan is transforming real estate with
+                  <br />
+                  innovative solutions powered by AI, blockchain, and more.
+                </p>
+
+                <button className={styles.button2} type="button">
+                  Learn More
+                </button>
+              </div>
+            </div>
           </div>
         </div>
 

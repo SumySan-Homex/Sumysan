@@ -50,7 +50,7 @@
   width: 60rem;
   height: 15rem;
   border: none;
-  margin-top: 5rem;
+  margin-top: 7rem;
   background-color: rgba(10, 10, 10, 0.5);
 }
 
@@ -80,4 +80,12 @@
   border: none;
   font-weight: bolder;
   margin-top: 2rem;
+}
+
+.miniCard2 {
+  width: 60rem;
+  height: 13rem;
+  border: none;
+  margin-top: 8rem;
+  background-color: rgba(10, 10, 10, 0.5);
 }
