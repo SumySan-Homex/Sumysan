@@ -89,3 +89,11 @@
   margin-top: 8rem;
   background-color: rgba(10, 10, 10, 0.5);
 }
+
+.miniCard3 {
+  width: 60rem;
+  height: 15rem;
+  border: none;
+  margin-top: 7rem;
+  background-color: rgba(10, 10, 10, 0.5);
+}

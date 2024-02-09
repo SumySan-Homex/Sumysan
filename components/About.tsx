@@ -58,6 +58,25 @@ const About = () => {
                 </button>
               </div>
             </div>
+
+            <div className={styles.miniCard3}>
+              <div className={styles.miniContent}>
+                <h2 className={styles.header2}>Unlock the potential:</h2>
+
+                <p className={styles.desc2}>
+                  Join us in unlocking the full potential of real estate.
+                  Explore
+                  <br />
+                  our offerings and revolutionize the way you think about
+                  <br />
+                  property.
+                </p>
+
+                <button className={styles.button2} type="button">
+                  Learn More
+                </button>
+              </div>
+            </div>
           </div>
         </div>
 
