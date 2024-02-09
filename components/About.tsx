@@ -13,7 +13,7 @@ const About = () => {
             <h2 className={styles.header}>Revolutionizing</h2>
             <h2 className={styles.header}>Real Estate</h2>
 
-            <p>
+            <p className={styles.desc}>
               Sumysan is reshaping real estate through advanced technology. Our
               mission is
               <br />

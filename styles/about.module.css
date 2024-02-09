@@ -20,12 +20,18 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 3rem;
+  margin: 6rem;
 }
 
 .header {
-  font-size: 5rem;
+  font-size: 3.5rem;
   font-weight: 500;
   font-style: normal;
   letter-spacing: 1rem;
+}
+
+.desc {
+  margin-top: 3rem;
+  font-weight: 700;
+  font-size: large;
 }
