@@ -72,3 +72,12 @@
   color: white;
   font-weight: 100;
 }
+
+.button2 {
+  width: 6.5rem;
+  height: 2rem;
+  background-color: #b4dfa1;
+  border: none;
+  font-weight: bolder;
+  margin-top: 2rem;
+}

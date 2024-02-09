@@ -37,9 +37,13 @@ const About = () => {
                   and transparent
                 </p>
 
-                <button type="button">Learn More</button>
+                <button className={styles.button2} type="button">
+                  Learn More
+                </button>
               </div>
             </div>
+
+            <div className={styles.miniCard2}></div>
           </div>
         </div>
 
