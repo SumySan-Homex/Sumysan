@@ -9,9 +9,9 @@ const Content = () => {
       <div className={styles.contentContainer}>
         <Image className={styles.image} src={about1} alt="abt" />
 
-        <div>
-          <h2>See What Others Are Saying</h2>
-          <p>
+        <div className={styles.textContent}>
+          <h2 className={styles.text}>See What Others Are Saying:</h2>
+          <p className={styles.paragraph}>
             Read testimonials from satisfied clients
             <br />
             and partners who have experienced the

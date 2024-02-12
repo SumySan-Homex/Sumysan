@@ -22,3 +22,25 @@
   padding-left: 2rem;
   padding-top: 1rem;
 }
+
+.textContent {
+  padding-right: 2rem;
+}
+
+.text {
+  font-weight: 500;
+  font-size: xx-large;
+  text-decoration: none;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.text::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px; /* Adjust as needed */
+  width: 100%;
+  height: 2px; /* Thickness of the underline */
+  background-color: black;
+}
