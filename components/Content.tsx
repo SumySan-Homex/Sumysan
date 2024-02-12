@@ -16,7 +16,7 @@ const Content = () => {
             <br />
             and partners who have experienced the
             <br />
-            Sumysan difference
+            Sumysan difference.
           </p>
         </div>
       </div>
