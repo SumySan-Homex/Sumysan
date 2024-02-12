@@ -6,12 +6,19 @@ import styles from "../styles/content.module.css";
 const Content = () => {
   return (
     <div className={styles.container}>
-      <div>
-        <Image src={about1} alt="abt" />
-        <p>
-          lorem ipsum yes yeshsh scbcnj hjnch <br />
-          jbchcc cchbchcc chccbcdc,b u{" "}
-        </p>
+      <div className={styles.contentContainer}>
+        <Image className={styles.image} src={about1} alt="abt" />
+
+        <div>
+          <h2>See What Others Are Saying</h2>
+          <p>
+            Read testimonials from satisfied clients
+            <br />
+            and partners who have experienced the
+            <br />
+            Sumysan difference
+          </p>
+        </div>
       </div>
     </div>
   );

@@ -1,11 +1,24 @@
 .container {
   width: 100%;
   height: 100%;
-  margin-top: 0;
+  margin-top: -2rem;
 
   background: linear-gradient(
     to bottom,
     rgba(119, 182, 91, 1),
     rgba(119, 182, 91, 0)
   );
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+}
+
+.image {
+  padding-left: 2rem;
+  padding-top: 1rem;
 }
