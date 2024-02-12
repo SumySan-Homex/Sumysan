@@ -80,9 +80,9 @@ const About = () => {
           </div>
         </div>
 
-        <div className={styles.images}>
+        <div>
           <Image src={re1} alt="estate" />
-          <Image src={re2} alt="house" />
+          <Image className={styles.images} src={re2} alt="house" />
         </div>
       </div>
     </div>
