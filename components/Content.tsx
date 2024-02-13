@@ -20,6 +20,17 @@ const Content = () => {
           </p>
         </div>
       </div>
+
+      <div className={styles.textContent}>
+        <h2 className={styles.text}>See What Others Are Saying:</h2>
+        <p className={styles.paragraph}>
+          Read testimonials from satisfied clients
+          <br />
+          and partners who have experienced the
+          <br />
+          Sumysan difference.
+        </p>
+      </div>
     </div>
   );
 };
