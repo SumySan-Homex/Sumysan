@@ -79,10 +79,11 @@
 }
 
 .button {
-  width: 5rem;
-  height: 2rem;
+  width: 7rem;
+  height: 2.5rem;
   background-color: inherit;
-  border: 1px solid #eaf3e6;
-  font-weight: bolder;
-  margin-top: -1rem;
+  border: 1px solid #b4dfa1;
+  font-weight: 600;
+  margin-top: 1rem;
+  cursor: pointer;
 }

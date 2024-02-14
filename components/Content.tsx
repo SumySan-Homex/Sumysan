@@ -37,8 +37,9 @@ const Content = () => {
                 Join Us in Shaping the Future of Real
                 <br />
                 Estate.
+                <br />
+                <button className={styles.button}>Read Blog</button>
               </p>
-              <button className={styles.button}>Read Blog</button>
             </div>
 
             <Image src={img2} alt="img" />
