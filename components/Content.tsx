@@ -45,6 +45,12 @@ const Content = () => {
             <Image src={img2} alt="img" />
           </div>
         </div>
+
+        <div>
+          <div className={styles.card}>
+            <h3>“</h3>
+          </div>
+        </div>
       </div>
     </div>
   );
