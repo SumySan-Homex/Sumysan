@@ -88,6 +88,13 @@
   cursor: pointer;
 }
 
+.cardContents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .card {
   width: 5rem;
   height: 5rem;

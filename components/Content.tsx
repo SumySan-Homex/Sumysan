@@ -47,8 +47,22 @@ const Content = () => {
         </div>
 
         <div>
-          <div className={styles.card}>
-            <h3>“</h3>
+          <div className={styles.cardContents}>
+            <div>
+              <h3>Customer Reviews</h3>
+            </div>
+
+            <div>
+              <div className={styles.card}>
+                <h3>“</h3>
+              </div>
+              <div className={styles.card}>
+                <h3>“</h3>
+              </div>
+              <div className={styles.card}>
+                <h3>“</h3>
+              </div>
+            </div>
           </div>
         </div>
       </div>
