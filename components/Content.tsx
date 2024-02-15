@@ -45,7 +45,7 @@ const Content = () => {
               </p>
             </div>
 
-            <Image src={img2} alt="img" />
+            <Image className={styles.image2} src={img2} alt="img" />
           </div>
         </div>
 
