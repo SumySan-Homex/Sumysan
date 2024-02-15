@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import about1 from "../public/about1.png";
 import img2 from "../public/img2.png";
+import img3 from "../public/img3.png";
 import styles from "../styles/content.module.css";
 
 const Content = () => {
@@ -53,13 +54,22 @@ const Content = () => {
             </div>
 
             <div className={styles.cardContainer}>
-              <div className={styles.card}>
+              <div className={styles.card1}>
+                <h3 className={styles.cardText}>“</h3>
+                <Image className={styles.img3} src={img3} alt="image" />
+                <p className={styles.cardParagraph}>
+                  〝Their commitment to
+                  <br />
+                  transparency and accessibility is
+                  <br />
+                  unmatched.
+                  <br />- Jane Smith, Real Estate Agent
+                </p>
+              </div>
+              <div className={styles.card2}>
                 <h3>“</h3>
               </div>
-              <div className={styles.card}>
-                <h3>“</h3>
-              </div>
-              <div className={styles.card}>
+              <div className={styles.card3}>
                 <h3>“</h3>
               </div>
             </div>

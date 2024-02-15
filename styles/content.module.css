@@ -115,7 +115,37 @@
   margin: 2rem;
 }
 
-.card {
+.card1 {
+  width: 20.4rem;
+  height: 20.82rem;
+  border: 1px solid #d9d9d9;
+  background-color: #d9d9d9;
+}
+
+.cardText {
+  font-size: 5rem;
+  font-weight: 900;
+  margin: 2rem;
+}
+
+.img3 {
+  margin-left: 6rem;
+  margin-top: -5rem;
+}
+
+.cardParagraph {
+  font-size: large;
+  font-weight: 700;
+  margin: 1rem;
+}
+
+.card2 {
+  width: 20.4rem;
+  height: 20.82rem;
+  border: 1px solid black;
+}
+
+.card3 {
   width: 20.4rem;
   height: 20.82rem;
   border: 1px solid black;
