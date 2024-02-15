@@ -30,7 +30,7 @@ const Content = () => {
           <div className={styles.contents}>
             <div>
               <h2 className={styles.text2}>Latest Updates:</h2>
-              <p className={styles.paragraph}>
+              <p className={styles.paragraph2}>
                 Stay informed with the latest news and
                 <br />
                 insights from Sumysan. Explore our blog

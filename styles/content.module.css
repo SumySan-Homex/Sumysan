@@ -65,6 +65,7 @@
   font-size: xx-large;
   text-decoration: none;
   margin-bottom: 1rem;
+  margin-left: 2rem;
   position: relative;
   color: #132445;
 }
@@ -74,18 +75,26 @@
   position: absolute;
   left: 0;
   bottom: 2px;
-  width: 76%;
+  width: 52%;
   height: 2px; /* Thickness of the underline */
   background-color: #132445;
 }
 
+.paragraph2 {
+  font-size: x-large;
+  font-weight: 200;
+  padding-bottom: 3rem;
+  margin-left: 2rem;
+}
+
 .button {
-  width: 7rem;
+  width: 6rem;
   height: 2.5rem;
-  background-color: inherit;
+  background-color: #b4dfa1;
   border: 1px solid #b4dfa1;
   font-weight: 600;
   margin-top: 1rem;
+  margin-left: -1rem;
   cursor: pointer;
 }
 
