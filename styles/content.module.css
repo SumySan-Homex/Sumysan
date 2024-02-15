@@ -1,6 +1,7 @@
 .container {
   width: 100%;
   height: 100%;
+  padding-bottom: 8rem;
   /* margin-top: -rem; */
   background: linear-gradient(
     to bottom,
@@ -142,11 +143,13 @@
 .card2 {
   width: 20.4rem;
   height: 20.82rem;
-  border: 1px solid black;
+  border: 1px solid #b4dfa1;
+  background-color: #b4dfa1;
 }
 
 .card3 {
   width: 20.4rem;
   height: 20.82rem;
-  border: 1px solid black;
+  border: 1px solid #12af2b;
+  background-color: #12af2b;
 }

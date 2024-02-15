@@ -3,6 +3,8 @@ import Image from "next/image";
 import about1 from "../public/about1.png";
 import img2 from "../public/img2.png";
 import img3 from "../public/img3.png";
+import img4 from "../public/img4.png";
+import img5 from "../public/img5.png";
 import styles from "../styles/content.module.css";
 
 const Content = () => {
@@ -66,11 +68,31 @@ const Content = () => {
                   <br />- Jane Smith, Real Estate Agent
                 </p>
               </div>
+
               <div className={styles.card2}>
-                <h3>“</h3>
+                <h3 className={styles.cardText}>“</h3>
+                <Image className={styles.img3} src={img4} alt="image" />
+                <p className={styles.cardParagraph}>
+                  〝Sumysan’s dedication to
+                  <br />
+                  harnessing technology for the
+                  <br />
+                  greater good sets them apart.
+                  <br />- Mark Johnson, Investor
+                </p>
               </div>
+
               <div className={styles.card3}>
-                <h3>“</h3>
+                <h3 className={styles.cardText}>“</h3>
+                <Image className={styles.img3} src={img5} alt="image" />
+                <p className={styles.cardParagraph}>
+                  〝Sumysan’s technology has
+                  <br />
+                  streamlined our transactions and
+                  <br />
+                  increased our efficiency tenfold.
+                  <br />- John Doe, CEO of XYZ Realty
+                </p>
               </div>
             </div>
           </div>
