@@ -95,6 +95,13 @@
   align-items: center;
 }
 
+.h3 {
+  font-size: x-large;
+  font-weight: 400;
+  text-decoration: underline;
+  color: #132445;
+}
+
 .card {
   width: 5rem;
   height: 5rem;

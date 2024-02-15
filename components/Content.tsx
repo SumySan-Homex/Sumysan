@@ -49,7 +49,7 @@ const Content = () => {
         <div>
           <div className={styles.cardContents}>
             <div>
-              <h3>Customer Reviews</h3>
+              <h3 className={styles.h3}>Customer Reviews</h3>
             </div>
 
             <div>
