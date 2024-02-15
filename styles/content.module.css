@@ -88,18 +88,31 @@
   cursor: pointer;
 }
 
-.cardContents {
+/* .cardContents {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .h3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-size: x-large;
   font-weight: 400;
   text-decoration: underline;
   color: #132445;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  margin: 2rem;
 }
 
 .card {

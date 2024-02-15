@@ -52,7 +52,7 @@ const Content = () => {
               <h3 className={styles.h3}>Customer Reviews</h3>
             </div>
 
-            <div>
+            <div className={styles.cardContainer}>
               <div className={styles.card}>
                 <h3>“</h3>
               </div>
