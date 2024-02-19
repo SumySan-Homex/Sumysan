@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import logo from "../../public/logo.png";
-import styles from "../../styles/navbar.module.css";
+import logo from "../public/logo.png";
+import styles from "../styles/navbar.module.css";
 import Link from "next/link";
 
 const Navlinks = () => {
@@ -9,13 +9,13 @@ const Navlinks = () => {
     <nav>
       <ul className={styles.navlinks}>
         <li className={styles.navlist}>
-          <Link href="">Products/Services</Link>
+          <Link href="/products">Products/Services</Link>
         </li>
         <li className={styles.navlist}>
           <Link href="">Career Opportunities</Link>
         </li>
         <li className={styles.navlist}>
-          <Link href="">Whitepaper</Link>
+          <Link href="/whitepaper">Whitepaper</Link>
         </li>
         <li className={styles.navlist}>
           <Link href="">Legal Pages</Link>
