@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import about1 from "../public/about1.png";
-import img2 from "../public/img2.png";
-import img3 from "../public/img3.png";
-import img4 from "../public/img4.png";
-import img5 from "../public/img5.png";
-import styles from "../styles/content.module.css";
+import about1 from "../../public/about1.png";
+import img2 from "../../public/img2.png";
+import img3 from "../../public/img3.png";
+import img4 from "../../public/img4.png";
+import img5 from "../../public/img5.png";
+import styles from "../../styles/content.module.css";
 
 const Content = () => {
   return (

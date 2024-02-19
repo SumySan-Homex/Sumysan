@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import logo from "../public/logo.png";
-import styles from "../styles/navbar.module.css";
+import logo from "../../public/logo.png";
+import styles from "../../styles/navbar.module.css";
 import Link from "next/link";
 
 const Navlinks = () => {

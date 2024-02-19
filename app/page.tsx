@@ -1,8 +1,8 @@
 import React from "react";
-import Navbar from "@/components/Navbar";
+import Navbar from "@/app/components/Navbar";
 import "./globals.css";
-import About from "@/components/About";
-import Content from "@/components/Content";
+import About from "@/app/components/About";
+import Content from "@/app/components/Content";
 
 const Home = () => {
   return (
