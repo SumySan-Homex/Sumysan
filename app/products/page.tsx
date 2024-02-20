@@ -22,7 +22,7 @@ const Products = () => {
             litecoin. Aave dai.
           </p>
           <button className={styles.buttonLink}>
-            <Link href="">visit site</Link>
+            <Link href="/homex">visit site</Link>
           </button>
         </div>
 
@@ -37,7 +37,7 @@ const Products = () => {
             litecoin. Aave dai.
           </p>
           <button className={styles.buttonLink}>
-            <Link href="">set a reminder</Link>
+            <Link href="/xspace">set a reminder</Link>
           </button>
         </div>
 
@@ -52,7 +52,7 @@ const Products = () => {
             litecoin. Aave dai.
           </p>
           <button className={styles.buttonLink}>
-            <Link href="">Join a community</Link>
+            <Link href="/estateTycoons">Join a community</Link>
           </button>
         </div>
 
@@ -67,7 +67,7 @@ const Products = () => {
             litecoin. Aave dai.
           </p>
           <button className={styles.buttonLink}>
-            <Link href="">visit site</Link>
+            <Link href="/work">visit site</Link>
           </button>
         </div>
       </div>
