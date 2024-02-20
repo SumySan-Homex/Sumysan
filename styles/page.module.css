@@ -228,3 +228,11 @@
     transform: rotate(0deg);
   }
 }
+
+.productContainer {
+  background: linear-gradient(
+    to top,
+    rgba(119, 182, 91, 1),
+    rgba(119, 182, 91, 0)
+  );
+}
