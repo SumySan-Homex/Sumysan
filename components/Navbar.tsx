@@ -12,22 +12,22 @@ const Navlinks = () => {
           <Link href="/products">Products/Services</Link>
         </li>
         <li className={styles.navlist}>
-          <Link href="">Career Opportunities</Link>
+          <Link href="/careerOpportunities">Career Opportunities</Link>
         </li>
         <li className={styles.navlist}>
           <Link href="/whitepaper">Whitepaper</Link>
         </li>
         <li className={styles.navlist}>
-          <Link href="">Legal Pages</Link>
+          <Link href="/legalpages">Legal Pages</Link>
         </li>
         <li className={styles.navlist}>
-          <Link href="">About Us</Link>
+          <Link href="/about">About Us</Link>
         </li>
         <li className={styles.navlist}>
-          <Link href="">Blog</Link>
+          <Link href="/blog">Blog</Link>
         </li>
         <li className={styles.navlist}>
-          <Link href="">FAQs</Link>
+          <Link href="/faqs">FAQs</Link>
         </li>
       </ul>
     </nav>
