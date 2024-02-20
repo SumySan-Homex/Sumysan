@@ -235,4 +235,8 @@
     rgba(119, 182, 91, 1),
     rgba(119, 182, 91, 0)
   );
+
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
 }
