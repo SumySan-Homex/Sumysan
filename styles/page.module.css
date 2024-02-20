@@ -247,5 +247,28 @@
     align-items: center;
     padding-top: 5rem;
     margin: 3rem;
+
+    .Imagetext {
+      font-weight: 400;
+      padding-top: 1rem;
+    }
+
+    .paragraphText {
+      font-weight: 200;
+      font-size: x-large;
+      padding-top: 1rem;
+    }
+
+    .buttonLink {
+      width: 6rem;
+      height: 1.5rem;
+      background-color: #b4dfa1;
+      border: 1px solid #b4dfa1;
+      font-weight: 600;
+      font-size: x-small;
+      margin-top: 1rem;
+
+      cursor: pointer;
+    }
   }
 }

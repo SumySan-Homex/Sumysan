@@ -12,54 +12,54 @@ const Products = () => {
       <div className={styles.productImages}>
         <div>
           <Image src={pro1} alt="image" width={270} height={200} />{" "}
-          <h3>Homex</h3>
-          <p>
+          <h3 className={styles.Imagetext}>Homex</h3>
+          <p className={styles.paragraphText}>
             Crypto ipsum bitcoin
             <br />
             ethereum dogecoin
             <br />
             litecoin. Aave dai.
           </p>
-          <button>visit site</button>
+          <button className={styles.buttonLink}>visit site</button>
         </div>
 
         <div>
           <Image src={pro2} alt="image" width={270} height={200} />
-          <h3>X Space</h3>
-          <p>
+          <h3 className={styles.Imagetext}>X Space</h3>
+          <p className={styles.paragraphText}>
             Crypto ipsum bitcoin
             <br />
             ethereum dogecoin
             <br />
             litecoin. Aave dai.
           </p>
-          <button>set a reminder</button>
+          <button className={styles.buttonLink}>set a reminder</button>
         </div>
 
         <div>
           <Image src={pro3} alt="image" width={270} height={200} />
-          <h3>Estate Tycoons</h3>
-          <p>
+          <h3 className={styles.Imagetext}>Estate Tycoons</h3>
+          <p className={styles.paragraphText}>
             Crypto ipsum bitcoin
             <br />
             ethereum dogecoin
             <br />
             litecoin. Aave dai.
           </p>
-          <button>Join Community</button>
+          <button className={styles.buttonLink}>Join Community</button>
         </div>
 
         <div>
           <Image src={pro4} alt="image" width={270} height={200} />
-          <h3>Work for me</h3>
-          <p>
+          <h3 className={styles.Imagetext}>Work for me</h3>
+          <p className={styles.paragraphText}>
             Crypto ipsum bitcoin
             <br />
             ethereum dogecoin
             <br />
             litecoin. Aave dai.
           </p>
-          <button>visit site</button>
+          <button className={styles.buttonLink}>visit site</button>
         </div>
       </div>
     </div>
