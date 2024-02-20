@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import styles from "../../styles/page.module.css";
 import pro1 from "../../public/pro1.png";
 import pro2 from "../../public/pro2.png";
@@ -20,7 +21,9 @@ const Products = () => {
             <br />
             litecoin. Aave dai.
           </p>
-          <button className={styles.buttonLink}>visit site</button>
+          <button className={styles.buttonLink}>
+            <Link href="">visit site</Link>
+          </button>
         </div>
 
         <div>
@@ -33,7 +36,9 @@ const Products = () => {
             <br />
             litecoin. Aave dai.
           </p>
-          <button className={styles.buttonLink}>set a reminder</button>
+          <button className={styles.buttonLink}>
+            <Link href="">set a reminder</Link>
+          </button>
         </div>
 
         <div>
@@ -46,7 +51,9 @@ const Products = () => {
             <br />
             litecoin. Aave dai.
           </p>
-          <button className={styles.buttonLink}>Join Community</button>
+          <button className={styles.buttonLink}>
+            <Link href="">Join a community</Link>
+          </button>
         </div>
 
         <div>
@@ -59,7 +66,9 @@ const Products = () => {
             <br />
             litecoin. Aave dai.
           </p>
-          <button className={styles.buttonLink}>visit site</button>
+          <button className={styles.buttonLink}>
+            <Link href="">visit site</Link>
+          </button>
         </div>
       </div>
     </div>
