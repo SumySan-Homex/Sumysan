@@ -239,4 +239,13 @@
   width: 100vw;
   height: 100vh;
   overflow: hidden;
+
+  .productImages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 5rem;
+    margin: 3rem;
+  }
 }

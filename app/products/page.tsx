@@ -9,11 +9,58 @@ import pro4 from "../../public/pro4.png";
 const Products = () => {
   return (
     <div className={styles.productContainer}>
-      <div>
-        <Image src={pro1} alt="image" />
-        <Image src={pro2} alt="image" />
-        <Image src={pro3} alt="image" />
-        <Image src={pro4} alt="image" />
+      <div className={styles.productImages}>
+        <div>
+          <Image src={pro1} alt="image" width={270} height={200} />{" "}
+          <h3>Homex</h3>
+          <p>
+            Crypto ipsum bitcoin
+            <br />
+            ethereum dogecoin
+            <br />
+            litecoin. Aave dai.
+          </p>
+          <button>visit site</button>
+        </div>
+
+        <div>
+          <Image src={pro2} alt="image" width={270} height={200} />
+          <h3>X Space</h3>
+          <p>
+            Crypto ipsum bitcoin
+            <br />
+            ethereum dogecoin
+            <br />
+            litecoin. Aave dai.
+          </p>
+          <button>set a reminder</button>
+        </div>
+
+        <div>
+          <Image src={pro3} alt="image" width={270} height={200} />
+          <h3>Estate Tycoons</h3>
+          <p>
+            Crypto ipsum bitcoin
+            <br />
+            ethereum dogecoin
+            <br />
+            litecoin. Aave dai.
+          </p>
+          <button>Join Community</button>
+        </div>
+
+        <div>
+          <Image src={pro4} alt="image" width={270} height={200} />
+          <h3>Work for me</h3>
+          <p>
+            Crypto ipsum bitcoin
+            <br />
+            ethereum dogecoin
+            <br />
+            litecoin. Aave dai.
+          </p>
+          <button>visit site</button>
+        </div>
       </div>
     </div>
   );
