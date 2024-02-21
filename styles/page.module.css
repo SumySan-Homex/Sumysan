@@ -279,9 +279,9 @@
     rgba(119, 182, 91, 1),
     rgba(119, 182, 91, 0)
   );
-
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
 
   .homexContent1 {
     display: flex;
@@ -305,6 +305,24 @@
 
         padding-top: 0.5rem;
       }
+    }
+  }
+
+  .homexContent2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 4rem;
+
+    .homexParagraphText2 {
+      font-weight: 300;
+
+      padding-top: 0.5rem;
+    }
+
+    .homexRoomImage {
+      margin-left: 8rem;
     }
   }
 }

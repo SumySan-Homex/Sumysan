@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import homex1 from "../../public/homex1.png";
+import homex2 from "../../public/homex2.png";
 import styles from "../../styles/page.module.css";
 
 const Homex = () => {
@@ -21,6 +22,19 @@ const Homex = () => {
             waves quant ICON.
           </p>
         </div>
+      </div>
+
+      <div className={styles.homexContent2}>
+        <p className={styles.homexParagraphText2}>
+          Crypto ipsum bitcoin ethereum dogecoin litecoin. Livepeer
+          <br />
+          polygon crypto PancakeSwap uniswap binance cardano
+          <br />
+          maker hive avalanche. Horizen chiliz ren neo USD quant
+          <br />
+          waves quant ICON.
+        </p>
+        <Image className={styles.homexRoomImage} src={homex2} alt="image" />
       </div>
     </div>
   );
