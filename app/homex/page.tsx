@@ -55,7 +55,7 @@ const Homex = () => {
 
       <div className={styles.buttonContainer}>
         <button className={styles.buttonLink}>
-          <Link href="/homex">visit site</Link>
+          <Link href="">visit site</Link>
         </button>
       </div>
     </div>
