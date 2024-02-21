@@ -272,3 +272,39 @@
     }
   }
 }
+
+.homexContainer {
+  background: linear-gradient(
+    to top,
+    rgba(119, 182, 91, 1),
+    rgba(119, 182, 91, 0)
+  );
+
+  width: 100vw;
+  height: 100vh;
+
+  .homexContent1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin: 4rem;
+
+    .homexInnerContent {
+      margin-left: 4rem;
+
+      .homexTextContent {
+        font-size: xx-large;
+        font-weight: 500;
+        color: #132445;
+      }
+
+      .homexParagraphText {
+        font-weight: 300;
+
+        padding-top: 0.5rem;
+      }
+    }
+  }
+}
