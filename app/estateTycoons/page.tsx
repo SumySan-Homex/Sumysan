@@ -13,7 +13,7 @@ const EstateTycoons = () => {
         <Image src={est1} alt="image" width={220} height={150} />
 
         <div className={styles.homexInnerContent}>
-          <h3 className={styles.homexTextContent}>Xspace</h3>
+          <h3 className={styles.homexTextContent}>Estate Tycoons</h3>
           <p className={styles.homexParagraphText}>
             Crypto ipsum bitcoin ethereum dogecoin litecoin. Livepeer
             <br />
