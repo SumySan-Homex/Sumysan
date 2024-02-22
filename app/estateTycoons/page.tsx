@@ -55,7 +55,7 @@ const EstateTycoons = () => {
 
       <div className={styles.buttonContainer}>
         <button className={styles.buttonLink}>
-          <Link href="">set a reminder</Link>
+          <Link href="">Join community</Link>
         </button>
       </div>
     </div>
