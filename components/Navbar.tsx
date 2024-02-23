@@ -9,7 +9,10 @@ const Navlinks = () => {
     <nav>
       <ul className={styles.navlinks}>
         <li className={styles.navlist}>
-          <Link href="/products">Products/Services</Link>
+          <Link href="/sumysanlab">Sumysan Lab</Link>
+        </li>
+        <li className={styles.navlist}>
+          <Link href="/products">Products</Link>
         </li>
         <li className={styles.navlist}>
           <Link href="/careerOpportunities">Career Opportunities</Link>
