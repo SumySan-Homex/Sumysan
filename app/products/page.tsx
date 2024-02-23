@@ -12,21 +12,27 @@ const Products = () => {
     <div className={styles.productContainer}>
       <div className={styles.productImages}>
         <div>
-          <Image src={pro1} alt="image" width={270} height={200} />{" "}
+          <Image
+            className={styles.productImage}
+            src={pro1}
+            alt="image"
+            width={530}
+            height={224}
+          />{" "}
           <h3 className={styles.Imagetext}>Homex</h3>
           <p className={styles.paragraphText}>
-            Crypto ipsum bitcoin
+            Crypto ipsum bitcoin ethereum dogecoin
             <br />
-            ethereum dogecoin
+            litecoin. Binance ox audius USD vechain monero
             <br />
-            litecoin. Aave dai.
+            klaytn golem maker binance. Shiba-inu.
           </p>
           <button className={styles.buttonLink}>
             <Link href="/homex">visit site</Link>
           </button>
         </div>
 
-        <div>
+        {/* <div>
           <Image src={pro2} alt="image" width={270} height={200} />
           <h3 className={styles.Imagetext}>X Space</h3>
           <p className={styles.paragraphText}>
@@ -54,17 +60,23 @@ const Products = () => {
           <button className={styles.buttonLink}>
             <Link href="/estateTycoons">Join a community</Link>
           </button>
-        </div>
+        </div> */}
 
         <div>
-          <Image src={pro4} alt="image" width={270} height={200} />
+          <Image
+            className={styles.productImage}
+            src={pro4}
+            alt="image"
+            width={530}
+            height={224}
+          />
           <h3 className={styles.Imagetext}>Work for me</h3>
           <p className={styles.paragraphText}>
-            Crypto ipsum bitcoin
+            Crypto ipsum bitcoin ethereum dogecoin
             <br />
-            ethereum dogecoin
+            litecoin. Binance ox audius USD vechain monero
             <br />
-            litecoin. Aave dai.
+            klaytn golem maker binance. Shiba-inu.
           </p>
           <button className={styles.buttonLink}>
             <Link href="/work">visit site</Link>

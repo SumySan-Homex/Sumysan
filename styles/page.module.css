@@ -246,7 +246,7 @@
     justify-content: space-around;
     align-items: center;
     padding-top: 5rem;
-    margin: 3rem;
+    margin: 1rem;
 
     .Imagetext {
       font-weight: 400;
@@ -272,6 +272,10 @@
     }
   }
 }
+
+/* .productImage {
+  transform: skewX(0deg) skewY(deg);
+} */
 
 .homexContainer {
   background: linear-gradient(
