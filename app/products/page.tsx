@@ -12,13 +12,7 @@ const Products = () => {
     <div className={styles.productContainer}>
       <div className={styles.productImages}>
         <div>
-          <Image
-            className={styles.productImage}
-            src={pro1}
-            alt="image"
-            width={530}
-            height={224}
-          />{" "}
+          <Image src={pro1} alt="image" width={530} height={224} />{" "}
           <h3 className={styles.Imagetext}>Homex</h3>
           <p className={styles.paragraphText}>
             Crypto ipsum bitcoin ethereum dogecoin
@@ -63,13 +57,7 @@ const Products = () => {
         </div> */}
 
         <div>
-          <Image
-            className={styles.productImage}
-            src={pro4}
-            alt="image"
-            width={530}
-            height={224}
-          />
+          <Image src={pro4} alt="image" width={530} height={224} />
           <h3 className={styles.Imagetext}>Work for me</h3>
           <p className={styles.paragraphText}>
             Crypto ipsum bitcoin ethereum dogecoin
