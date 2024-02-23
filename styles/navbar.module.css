@@ -5,6 +5,10 @@
   background-color: #51a22d;
 }
 
+.logo {
+  margin-left: 1.4rem;
+}
+
 .navcontent {
   display: flex;
   flex-direction: row;
@@ -23,6 +27,7 @@
 .navlist {
   margin: 0.8rem;
   font-weight: bold;
+  font-size: small;
 }
 
 .contact {
@@ -32,4 +37,5 @@
   border: 1px solid transparent;
   font-weight: bold;
   text-transform: uppercase;
+  margin-right: 2.8rem;
 }

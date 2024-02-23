@@ -43,7 +43,7 @@ const Navbar = () => {
       <div className={styles.navbar}>
         <div className={styles.navcontent}>
           <div className={styles.logo}>
-            <Image src={logo} alt="logo" />
+            <Image className={styles.logo} src={logo} alt="logo" />
           </div>
 
           <div>
