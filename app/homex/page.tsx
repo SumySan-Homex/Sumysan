@@ -63,7 +63,7 @@ const Homex = () => {
         <h3 className={styles.homexTitleContent}>
           Find your home according to your budget.
         </h3>
-        <p>
+        <p className={styles.homexParagraphText4}>
           Our friendly home recommendation AI that helps you find homes that
           suit your needs and budgets.
         </p>

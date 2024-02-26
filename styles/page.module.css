@@ -353,6 +353,12 @@
       font-weight: 400;
       color: #132445;
     }
+
+    .homexParagraphText4 {
+      font-size: 21px;
+      font-weight: 300;
+      padding-top: 1rem;
+    }
   }
 
   .buttonContainer {
