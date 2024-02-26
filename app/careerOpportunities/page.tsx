@@ -6,9 +6,13 @@ import styles from "../../styles/page.module.css";
 const CareerOpportunities = () => {
   return (
     <div className={styles.coContainer}>
-      <div>
-        <div>
-          <h3>Here are Career Opportunities in Sumysan</h3>
+      <div className={styles.coTitleDesc}>
+        <div className={styles.coContents}>
+          <h3 className={styles.coDesc}>
+            Here are Career Opportunities
+            <br />
+            in Sumysan
+          </h3>
           <p>
             Crypto ipsum bitcoin ethereum dogecoin litecoin. Livepeer
             <br />

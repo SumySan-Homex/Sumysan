@@ -391,4 +391,22 @@
   width: 100vw;
   height: 100vh;
   overflow-y: hidden;
+
+  .coTitleDesc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem;
+
+    .coContents {
+      margin-top: -1rem;
+
+      .coDesc {
+        font-size: 52.19px;
+        font-weight: 500;
+        color: #132445;
+      }
+    }
+  }
 }
