@@ -13,7 +13,7 @@ const CareerOpportunities = () => {
             <br />
             in Sumysan
           </h3>
-          <p>
+          <p className={styles.coText}>
             Crypto ipsum bitcoin ethereum dogecoin litecoin. Livepeer
             <br />
             polygon crypto PancakeSwap uniswap binance cardano
