@@ -390,7 +390,7 @@
   );
   width: 100vw;
   height: 100vh;
-  overflow-y: hidden;
+  overflow-y: auto;
 
   .coTitleDesc {
     display: flex;
@@ -414,5 +414,29 @@
         margin-top: 1rem;
       }
     }
+  }
+
+  .coJobOpening {
+    margin: 4rem;
+  }
+}
+
+.flexboxContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 8px;
+  column-gap: 2px;
+  margin-left: -5rem;
+  margin-top: 1rem;
+
+  .cell {
+    flex: 0 0 calc(20% - 10px); /* 4 columns (20% width each) with gap */
+    font-size: 14px; /* Adjust font size as needed */
+    color: #132445; /* Adjust text color as needed */
+    font-weight: bold; /* Adjust font weight as needed */
+    text-align: center; /* Align text in the center */
+    margin: 0rem; /* Reset margin */
+    padding: 10px; /* Adjust padding as needed */
   }
 }

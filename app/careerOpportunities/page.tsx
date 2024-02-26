@@ -3,6 +3,33 @@ import Image from "next/image";
 import co1 from "../../public/co1.png";
 import styles from "../../styles/page.module.css";
 
+const Agents = () => {
+  return (
+    <div className={styles.flexboxContainer}>
+      <p className={styles.cell}>&rarr; Agent</p>
+      <p className={styles.cell}>&rarr; Agent</p>
+      <p className={styles.cell}>&rarr; Agent</p>
+      <p className={styles.cell}>&rarr; Agent</p>
+      <p className={styles.cell}>&rarr; Agent</p>
+      <p className={styles.cell}>&rarr; Agent</p>
+      <p className={styles.cell}>&rarr; Agent</p>
+      <p className={styles.cell}>&rarr; Agent</p>
+      <p className={styles.cell}>&rarr; Agent</p>
+      <p className={styles.cell}>&rarr; Agent</p>
+      <p className={styles.cell}>&rarr; Agent</p>
+      <p className={styles.cell}>&rarr; Agent</p>
+      <p className={styles.cell}>&rarr; Agent</p>
+      <p className={styles.cell}>&rarr; Agent</p>
+      <p className={styles.cell}>&rarr; Agent</p>
+      <p className={styles.cell}>&rarr; Agent</p>
+      <p className={styles.cell}>&rarr; Agent</p>
+      <p className={styles.cell}>&rarr; Agent</p>
+      <p className={styles.cell}>&rarr; Agent</p>
+      <p className={styles.cell}>&rarr; Agent</p>
+    </div>
+  );
+};
+
 const CareerOpportunities = () => {
   return (
     <div className={styles.coContainer}>
@@ -23,8 +50,13 @@ const CareerOpportunities = () => {
             waves quant ICON.
           </p>
         </div>
-
         <Image src={co1} alt="image" />
+      </div>
+
+      <div className={styles.coJobOpening}>
+        <h3>Job openings that are available.</h3>
+        <Agents />
+        <div></div>
       </div>
     </div>
   );
