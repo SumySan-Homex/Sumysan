@@ -58,6 +58,23 @@ const Homex = () => {
           <Link href="">visit site</Link>
         </button>
       </div>
+
+      <div className={styles.homexContent4}>
+        <h3 className={styles.homexTitleContent}>
+          Find your home according to your budget.
+        </h3>
+        <p>
+          Our friendly home recommendation AI that helps you find homes that
+          suit your needs and budgets.
+        </p>
+        <button></button>
+      </div>
+
+      <div className={styles.buttonContainer}>
+        <button className={styles.buttonLink}>
+          <Link href="">Explore</Link>
+        </button>
+      </div>
     </div>
   );
 };
