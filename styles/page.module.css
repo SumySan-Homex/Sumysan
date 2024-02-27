@@ -436,6 +436,10 @@
 
     .coBenefitItems {
       margin-top: 2rem;
+
+      .coBenefitParagraph {
+        margin: 1rem;
+      }
     }
   }
 }

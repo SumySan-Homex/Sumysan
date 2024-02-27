@@ -64,25 +64,33 @@ const CareerOpportunities = () => {
           Companies Benefits and Cultures
         </h3>
         <div className={styles.coBenefitItems}>
-          <p>
+          <p className={styles.coBenefitParagraph}>
             ✦ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Crypto ipsum
-            bitcoin ethereum dogecoin litecoin. Uniswap nexo ankr amp ox holo.
+            bitcoin ethereum dogecoin litecoin. Uniswap nexo
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ankr
+            amp ox holo.
           </p>
-          <p>
+          <p className={styles.coBenefitParagraph}>
             ✦ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Crypto ipsum
-            bitcoin ethereum dogecoin litecoin. Uniswap nexo ankr amp ox holo.
+            bitcoin ethereum dogecoin litecoin. Uniswap nexo
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ankr
+            amp ox holo.
           </p>
-          <p>
+          <p className={styles.coBenefitParagraph}>
             ✦ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Crypto ipsum
-            bitcoin ethereum dogecoin litecoin. Uniswap nexo ankr amp ox holo.
+            bitcoin ethereum dogecoin litecoin. Uniswap nexo
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ankr
+            amp ox holo.
           </p>
-          <p>
+          <p className={styles.coBenefitParagraph}>
             ✦ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Crypto ipsum
-            bitcoin ethereum dogecoin litecoin. Uniswap nexo ankr amp ox holo.
-          </p>
-          <p>
-            ✦ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Crypto ipsum
-            bitcoin ethereum dogecoin litecoin. Uniswap nexo ankr amp ox holo.
+            bitcoin ethereum dogecoin litecoin. Uniswap nexo
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ankr
+            amp ox holo.
           </p>
         </div>
       </div>
