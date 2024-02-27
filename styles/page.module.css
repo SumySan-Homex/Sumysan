@@ -419,6 +419,25 @@
   .coJobOpening {
     margin: 4rem;
   }
+
+  .coBenefits {
+    margin: 4rem;
+
+    .coBenefitsText {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      font-size: 3.5rem;
+      font-weight: 500;
+      color: #132445;
+    }
+
+    .coBenefitItems {
+      margin-top: 2rem;
+    }
+  }
 }
 
 .flexboxContainer {

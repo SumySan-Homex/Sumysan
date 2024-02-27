@@ -58,6 +58,34 @@ const CareerOpportunities = () => {
         <Agents />
         <div></div>
       </div>
+
+      <div className={styles.coBenefits}>
+        <h3 className={styles.coBenefitsText}>
+          Companies Benefits and Cultures
+        </h3>
+        <div className={styles.coBenefitItems}>
+          <p>
+            ✦ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Crypto ipsum
+            bitcoin ethereum dogecoin litecoin. Uniswap nexo ankr amp ox holo.
+          </p>
+          <p>
+            ✦ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Crypto ipsum
+            bitcoin ethereum dogecoin litecoin. Uniswap nexo ankr amp ox holo.
+          </p>
+          <p>
+            ✦ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Crypto ipsum
+            bitcoin ethereum dogecoin litecoin. Uniswap nexo ankr amp ox holo.
+          </p>
+          <p>
+            ✦ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Crypto ipsum
+            bitcoin ethereum dogecoin litecoin. Uniswap nexo ankr amp ox holo.
+          </p>
+          <p>
+            ✦ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Crypto ipsum
+            bitcoin ethereum dogecoin litecoin. Uniswap nexo ankr amp ox holo.
+          </p>
+        </div>
+      </div>
     </div>
   );
 };
