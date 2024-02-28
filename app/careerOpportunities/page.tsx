@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import co1 from "../../public/co1.png";
+import co2 from "../../public/co2.png";
 import styles from "../../styles/page.module.css";
 
 const Agents = () => {
@@ -93,6 +94,39 @@ const CareerOpportunities = () => {
             amp ox holo.
           </p>
         </div>
+      </div>
+
+      <div>
+        <h3>How to Apply</h3>
+        <p>
+          Crypto ipsum bitcoin ethereum dogecoin litecoin. Livepeer
+          <br />
+          polygon crypto PancakeSwap uniswap binance cardano
+          <br />
+          maker hive avalanche. Horizen chiliz ren neo USD quant
+          <br />
+          waves quant ICON.
+        </p>
+        <Image src={co2} alt="image" />
+        <p>
+          Crypto ipsum bitcoin ethereum dogecoin litecoin. Livepeer
+          <br />
+          polygon crypto PancakeSwap uniswap binance cardano
+          <br />
+          maker hive avalanche. Horizen chiliz ren neo USD quant
+          <br />
+          waves quant ICON.
+        </p>
+        <p>
+          Crypto ipsum bitcoin ethereum dogecoin litecoin. Livepeer
+          <br />
+          polygon crypto PancakeSwap uniswap binance cardano
+          <br />
+          maker hive avalanche. Horizen chiliz ren neo USD quant
+          <br />
+          waves quant ICON.
+        </p>
+        <button>Upload Resume and Portfolio</button>
       </div>
     </div>
   );
