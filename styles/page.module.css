@@ -429,7 +429,7 @@
       justify-content: center;
       align-items: center;
 
-      font-size: 3.5rem;
+      font-size: 3rem;
       font-weight: 500;
       color: #132445;
     }
@@ -438,6 +438,7 @@
       margin-top: 2rem;
 
       .coBenefitParagraph {
+        font-size: xx-large;
         margin: 1rem;
       }
     }
