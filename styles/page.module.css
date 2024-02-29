@@ -438,7 +438,7 @@
       margin-top: 2rem;
 
       .coBenefitParagraph {
-        font-size: xx-large;
+        font-size: 1.9rem;
         /* margin: 1rem; */
       }
     }
@@ -446,6 +446,17 @@
 
   .coApply {
     margin: 4rem;
+
+    .coApplyHeader {
+      font-size: 52.19px;
+      font-weight: 500;
+      color: #132445;
+    }
+
+    .coApplyParagraph {
+      font-size: 19px;
+      font-weight: 300;
+    }
   }
 }
 

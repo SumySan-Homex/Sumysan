@@ -97,15 +97,14 @@ const CareerOpportunities = () => {
       </div>
 
       <div className={styles.coApply}>
-        <h3>How to Apply</h3>
-        <p>
+        <h3 className={styles.coApplyHeader}>How to Apply</h3>
+        <p className={styles.coApplyParagraph}>
           Crypto ipsum bitcoin ethereum dogecoin litecoin. Livepeer
           <br />
-          polygon crypto PancakeSwap uniswap binance cardano
+          polygon crypto PancakeSwap uniswap binance cardano maker hive
+          avalanche. Horizen chiliz ren neo
           <br />
-          maker hive avalanche. Horizen chiliz ren neo USD quant
-          <br />
-          waves quant ICON.
+          USD quant waves quant ICON.
         </p>
         <Image src={co2} alt="image" />
         <p>
