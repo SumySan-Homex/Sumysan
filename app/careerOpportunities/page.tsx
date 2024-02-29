@@ -106,26 +106,33 @@ const CareerOpportunities = () => {
           <br />
           USD quant waves quant ICON.
         </p>
-        <Image src={co2} alt="image" />
-        <p>
-          Crypto ipsum bitcoin ethereum dogecoin litecoin. Livepeer
-          <br />
-          polygon crypto PancakeSwap uniswap binance cardano
-          <br />
-          maker hive avalanche. Horizen chiliz ren neo USD quant
-          <br />
-          waves quant ICON.
-        </p>
-        <p>
-          Crypto ipsum bitcoin ethereum dogecoin litecoin. Livepeer
-          <br />
-          polygon crypto PancakeSwap uniswap binance cardano
-          <br />
-          maker hive avalanche. Horizen chiliz ren neo USD quant
-          <br />
-          waves quant ICON.
-        </p>
-        <button>Upload Resume and Portfolio</button>
+      </div>
+
+      <div className={styles.coImageContent}>
+        <Image src={co2} width={280} height={180} alt="image" />
+
+        <div className={styles.coImageParagraph}>
+          <p className={styles.coParagraph1}>
+            Crypto ipsum bitcoin ethereum dogecoin litecoin. Livepeer polygon
+            crypto
+            <br />
+            PancakeSwap uniswap binance cardano maker hive avalanche. Horizen
+            <br />
+            chiliz ren neo USD quant waves quant ICON.
+          </p>
+          <p className={styles.coParagraph2}>
+            Crypto ipsum bitcoin ethereum dogecoin litecoin. Livepeer polygon
+            crypto
+            <br />
+            PancakeSwap uniswap binance cardano maker hive avalanche. Horizen
+            <br />
+            chiliz ren neo USD quant waves quant ICON.
+          </p>
+        </div>
+      </div>
+
+      <div className={styles.coButtonContainer}>
+        <button className={styles.coButton}>Upload Resume and Portfolio</button>
       </div>
     </div>
   );

@@ -456,6 +456,50 @@
     .coApplyParagraph {
       font-size: 19px;
       font-weight: 300;
+      margin-top: 1.5rem;
+    }
+  }
+
+  .coImageContent {
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: space-between;
+    align-items: center; */
+    margin: 4rem;
+
+    .coImageParagraph {
+      margin-top: -0rem;
+      margin-left: 2rem;
+
+      .coParagraph1 {
+        font-size: 19px;
+        font-weight: 300;
+      }
+      .coParagraph2 {
+        font-size: 19px;
+        font-weight: 300;
+        margin-top: 2rem;
+      }
+    }
+  }
+
+  .coButtonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 15rem;
+    margin-top: -4rem;
+
+    .coButton {
+      width: 10rem;
+      height: 1.5rem;
+      background-color: #b4dfa1;
+      border: 1px solid #b4dfa1;
+      font-weight: 600;
+      font-size: x-small;
+
+      cursor: pointer;
     }
   }
 }
