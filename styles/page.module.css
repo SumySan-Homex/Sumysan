@@ -439,9 +439,13 @@
 
       .coBenefitParagraph {
         font-size: xx-large;
-        margin: 1rem;
+        /* margin: 1rem; */
       }
     }
+  }
+
+  .coApply {
+    margin: 4rem;
   }
 }
 

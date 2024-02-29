@@ -96,7 +96,7 @@ const CareerOpportunities = () => {
         </div>
       </div>
 
-      <div>
+      <div className={styles.coApply}>
         <h3>How to Apply</h3>
         <p>
           Crypto ipsum bitcoin ethereum dogecoin litecoin. Livepeer
