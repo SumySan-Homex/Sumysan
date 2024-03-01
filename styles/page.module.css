@@ -578,3 +578,31 @@
     }
   }
 }
+
+.faqContainer {
+  background: #51a22d;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+
+  .faqContents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+
+    .faqHeader {
+      font-size: 52.19px;
+      font-weight: 400;
+      color: #132445;
+    }
+
+    .faqDropdown {
+      width: 1200px;
+      height: 143px;
+      border: 1px solid #b4dfa1;
+      margin-top: 2rem;
+    }
+  }
+}
