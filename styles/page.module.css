@@ -523,3 +523,24 @@
     padding: 10px; /* Adjust padding as needed */
   }
 }
+
+.wpContainer {
+  background: linear-gradient(
+    to top,
+    rgba(119, 182, 91, 1),
+    rgba(119, 182, 91, 0)
+  );
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+
+  .wpTextContainer {
+    margin: 5rem;
+
+    .wpText {
+      font-size: 52.19px;
+      font-weight: 500;
+      color: #132445;
+    }
+  }
+}
