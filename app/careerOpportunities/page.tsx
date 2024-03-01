@@ -109,7 +109,7 @@ const CareerOpportunities = () => {
       </div>
 
       <div className={styles.coImageContent}>
-        <Image src={co2} width={280} height={180} alt="image" />
+        <Image src={co2} width={280} height={195} alt="image" />
 
         <div className={styles.coImageParagraph}>
           <p className={styles.coParagraph1}>

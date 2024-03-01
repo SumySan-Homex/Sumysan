@@ -472,11 +472,11 @@
       margin-left: 2rem;
 
       .coParagraph1 {
-        font-size: 19px;
+        font-size: 22px;
         font-weight: 300;
       }
       .coParagraph2 {
-        font-size: 19px;
+        font-size: 22px;
         font-weight: 300;
         margin-top: 2rem;
       }
@@ -488,7 +488,7 @@
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    margin-right: 15rem;
+    margin-right: 9rem;
     margin-top: -4rem;
 
     .coButton {
