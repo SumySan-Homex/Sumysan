@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import re1 from "../public/re1.png";
-import re2 from "../public/re2.png";
+import home1 from "../public/home1.png";
+import home2 from "../public/home2.png";
 import styles from "../styles/about.module.css";
 
 const About = () => {
@@ -81,8 +81,8 @@ const About = () => {
         </div>
 
         <div>
-          <Image src={re1} alt="estate" />
-          <Image className={styles.images} src={re2} alt="house" />
+          <Image src={home1} alt="estate" />
+          <Image className={styles.images} src={home2} alt="house" />
         </div>
       </div>
     </div>
