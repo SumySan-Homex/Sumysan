@@ -31,11 +31,14 @@
 }
 
 .contact {
-  width: 6.5rem;
-  height: 2rem;
+  width: 7.5rem;
+  height: 2.5rem;
   background-color: #b4dfa1;
   border: 1px solid transparent;
+  border-radius: 1.5rem;
   font-weight: bold;
+  font-size: 0.9rem;
   text-transform: uppercase;
   margin-right: 2.8rem;
+  cursor: pointer;
 }
