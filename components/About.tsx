@@ -27,18 +27,26 @@ const About = () => {
 
             <div className={styles.miniCard}>
               <div className={styles.miniContent}>
-                <h2 className={styles.header2}>Our Vision:</h2>
+                <h2 className={styles.header2}>Our Objectives:</h2>
 
                 <p className={styles.desc2}>
-                  Welcome to the future of real estate. At Sumysan, we
+                  At Sumysan, we are on a mission to revolutionize the real
+                  estate industry by
                   <br />
-                  envision a world where property transactions are seamless
+                  harnessing cutting-edge technologies like AI, blockchain, and
+                  quantum
                   <br />
-                  and transparent
+                  computing. Our vision is a future where real estate
+                  transactions are efficient,
+                  <br />
+                  secure, transparent, and accessible to all. Join us as we
+                  redefine the
+                  <br />
+                  possibilities of real estate.
                 </p>
 
                 <button className={styles.button2} type="button">
-                  Learn More
+                  Read More
                 </button>
               </div>
             </div>
@@ -54,7 +62,7 @@ const About = () => {
                 </p>
 
                 <button className={styles.button2} type="button">
-                  Learn More
+                  Explore services
                 </button>
               </div>
             </div>
