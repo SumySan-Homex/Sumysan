@@ -1,10 +1,23 @@
+"use client";
 import React from "react";
-import Image from "next/image";
-import home1 from "../public/home1.png";
-import home2 from "../public/home2.png";
+// import Image from "next/image";
+// import home1 from "../public/home1.png";
+// import home2 from "../public/home2.png";
+import Slideshow from "./Slideshow";
 import styles from "../styles/about.module.css";
 
+const images = [
+  { src: "/home1.png", alt: "Image 1" },
+  { src: "/home2.png", alt: "Image 2" },
+  { src: "/home3.png", alt: "Image 3" },
+  { src: "/home4.png", alt: "Image 4" },
+  { src: "/home5.png", alt: "Image 5" },
+];
+
 const About = () => {
+  const firstSet = images.slice(0, 3); // First set of images
+  const secondSet = images.slice(3, 6); // Second set of images
+
   return (
     <div>
       <div className={styles.container}>
@@ -89,8 +102,10 @@ const About = () => {
         </div>
 
         <div>
-          <Image src={home1} alt="estate" />
-          <Image className={styles.images} src={home2} alt="house" />
+          {/* <Image src={home1} alt="estate" />
+          <Image className={styles.images} src={home2} alt="house" /> */}
+          <Slideshow images={firstSet} />
+          <Slideshow images={secondSet} />
         </div>
       </div>
     </div>
