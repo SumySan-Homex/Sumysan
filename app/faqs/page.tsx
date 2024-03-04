@@ -28,12 +28,8 @@ const Faq = () => {
             </p>
           )}
 
-          <button
-            type="button"
-            onClick={handleToggle}
-            className={styles.faqToggleBtn}
-          >
-            {dropdownOpen ? "x" : "˅"}
+          <button onClick={handleToggle} className={styles.faqToggleBtn}>
+            {dropdownOpen ? "🅧" : "v"}
           </button>
         </div>
       </div>
