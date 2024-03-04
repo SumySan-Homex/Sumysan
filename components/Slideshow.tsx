@@ -9,7 +9,7 @@ const Slideshow = ({ images }: any) => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 1000); // Change interval as needed
+    }, 4000); // Change interval as needed
 
     return () => clearInterval(interval);
   }, [images.length]);

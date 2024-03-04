@@ -45,6 +45,7 @@
   background-color: #b4dfa1;
   border: none;
   font-weight: bolder;
+  cursor: pointer;
 }
 
 .miniCard {

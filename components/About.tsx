@@ -12,11 +12,14 @@ const images = [
   { src: "/home3.png", alt: "Image 3" },
   { src: "/home4.png", alt: "Image 4" },
   { src: "/home5.png", alt: "Image 5" },
+  { src: "/home6.png", alt: "Image 6" },
+  { src: "/home7.png", alt: "Image 7" },
+  { src: "/home8.png", alt: "Image 8" },
 ];
 
 const About = () => {
-  const firstSet = images.slice(0, 3); // First set of images
-  const secondSet = images.slice(3, 6); // Second set of images
+  const firstSet = images.slice(0, 5); // First set of images
+  const secondSet = images.slice(5); // Second set of images
 
   return (
     <div>
