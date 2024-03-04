@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import about1 from "../public/about1.png";
+import cnt1 from "../public/cnt1.png";
 import img2 from "../public/img2.png";
 import img3 from "../public/img3.png";
 import img4 from "../public/img4.png";
@@ -12,7 +12,7 @@ const Content = () => {
     <div className={styles.container}>
       <div className={styles.contentContainer}>
         <div className={styles.contents}>
-          <Image className={styles.image} src={about1} alt="abt" />
+          <Image className={styles.image} src={cnt1} alt="abt" />
 
           <div className={styles.textContent}>
             <h2 className={styles.text}>See What Others Are Saying:</h2>
