@@ -295,14 +295,31 @@
     align-items: center;
     margin: 3rem;
 
-    .homexHeader {
-      font-weight: 400;
-      font-size: 3rem;
-      color: #132445;
+    .homexTextImageBox {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .homexHeader {
+        font-weight: 400;
+        font-size: 3rem;
+        color: #132445;
+      }
+
+      .homexLogo {
+        margin-top: 3rem;
+      }
     }
 
-    .homexLogo {
-      margin-top: 3rem;
+    .homexCardContainer {
+      margin-top: 5rem;
+
+      .homexCard1 {
+        width: 70rem;
+        height: 10rem;
+        border: 1px solid red;
+      }
     }
   }
 }

@@ -10,16 +10,24 @@ const Homex = () => {
   return (
     <div className={styles.homexContainer}>
       <div className={styles.homexContents}>
-        <h1 className={styles.homexHeader}>
-          Finding Your Dream Home With People You Trust
-        </h1>
-        <Image
-          className={styles.homexLogo}
-          src={homex1}
-          alt="homexImage"
-          width={400}
-          height={300}
-        />
+        <div className={styles.homexTextImageBox}>
+          <h1 className={styles.homexHeader}>
+            Finding Your Dream Home With People You Trust
+          </h1>
+          <Image
+            className={styles.homexLogo}
+            src={homex1}
+            alt="homexImage"
+            width={400}
+            height={300}
+          />
+        </div>
+
+        <div className={styles.homexCardContainer}>
+          <div className={styles.homexCard1}>
+            <h5>User-friendly Interface</h5>
+          </div>
+        </div>
       </div>
     </div>
   );
