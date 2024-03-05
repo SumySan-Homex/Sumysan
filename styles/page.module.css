@@ -288,101 +288,21 @@
   height: 100vh;
   overflow-y: auto;
 
-  .homexContent1 {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-
-    margin: 4rem;
-    padding-top: -3rem;
-
-    .homexInnerContent {
-      margin-left: 4rem;
-
-      .homexTextContent {
-        font-size: xx-large;
-        font-weight: 500;
-        color: #132445;
-      }
-
-      .homexParagraphText {
-        font-weight: 300;
-
-        padding-top: 0.5rem;
-      }
-    }
-  }
-
-  .homexContent2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 4rem;
-    padding-top: -3rem;
-
-    .homexParagraphText2 {
-      font-weight: 300;
-
-      padding-top: 0.5rem;
-    }
-
-    .homexRoomImage {
-      margin-left: 8rem;
-    }
-  }
-
-  .homexContent3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 4rem;
-    padding-top: -3rem;
-
-    .homexParagraphText3 {
-      font-weight: 300;
-
-      margin-left: 6rem;
-
-      /* padding-top: 0.5rem; */
-    }
-  }
-
-  .homexContent4 {
-    margin: 4rem;
-
-    .homexTitleContent {
-      font-size: 2.8rem;
-      font-weight: 400;
-      color: #132445;
-    }
-
-    .homexParagraphText4 {
-      font-size: 21px;
-      font-weight: 300;
-      padding-top: 1rem;
-    }
-  }
-
-  .buttonContainer {
+  .homexContents {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5rem;
-    padding-top: -5rem;
+    margin: 3rem;
 
-    .buttonLink {
-      width: 6rem;
-      height: 1.5rem;
-      background-color: #b4dfa1;
-      border: 1px solid #b4dfa1;
-      font-weight: 600;
-      font-size: x-small;
+    .homexHeader {
+      font-weight: 400;
+      font-size: 3rem;
+      color: #132445;
+    }
 
-      cursor: pointer;
+    .homexLogo {
+      margin-top: 3rem;
     }
   }
 }
