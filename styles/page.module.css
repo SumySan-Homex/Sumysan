@@ -319,6 +319,11 @@
         width: 70rem;
         height: 10rem;
         border: 1px solid red;
+
+        .images {
+          width: 10rem;
+          height: 5rem;
+        }
       }
     }
   }
