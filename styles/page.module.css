@@ -317,12 +317,12 @@
 
       .homexCard1 {
         width: 70rem;
-        height: 10rem;
-        border: 1px solid red;
+        height: 20rem;
+        border: 1px solid #b4dfa1;
 
         .images {
           width: 10rem;
-          height: 5rem;
+          height: 10rem;
         }
       }
     }
