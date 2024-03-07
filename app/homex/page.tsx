@@ -11,6 +11,7 @@ import homex4 from "../../public/homex4.png";
 import homex5 from "../../public/homex5.png";
 import homex6 from "../../public/homex6.png";
 import homex7 from "../../public/homex7.png";
+import homex8 from "../../public/homex8.png";
 import styles from "../../styles/page.module.css";
 
 const images = [
@@ -71,6 +72,23 @@ const Homex = () => {
               where every tap brings you closer to your dream property.
             </p>
           </div>
+        </div>
+
+        <div className={styles.homexCard2}>
+          <div className={styles.card2TextContents}>
+            <h5 className={styles.homexCardText1}>Virtual Property Tours:</h5>
+            <p className={styles.homexCardParagraph1}>
+              Step into your potential new home from <br />
+              anywhere with immersive virtual tours that bring <br />
+              properties to life before your eyes.
+            </p>
+
+            <button type="button" className={styles.homexButton}>
+              Learn More
+            </button>
+          </div>
+
+          <Image src={homex8} alt="image" />
         </div>
       </div>
     </div>
