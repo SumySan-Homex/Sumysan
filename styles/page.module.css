@@ -333,6 +333,10 @@
           width: 5rem;
           height: 10rem;
         }
+
+        .homexCardText {
+          font-size: 35.49px;
+        }
       }
     }
   }
