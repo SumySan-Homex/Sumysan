@@ -42,26 +42,34 @@ const Homex = () => {
 
         <div className={styles.homexCardContainer}>
           <div className={styles.homexCard1}>
-            <Carousel
-              showArrows={false}
-              showStatus={false}
-              showIndicators={false} // Hide status indicators
-              infiniteLoop={true} // Enable infinite loop
-              autoPlay={true} // Enable auto play
-              interval={3000} // Set auto play interval (milliseconds)
-              stopOnHover={false} // Stop auto play on hover
-              transitionTime={500} // Set transition time (milliseconds)
-              axis="horizontal"
-            >
-              <Image src={homex1} alt="image" className={styles.images} />
-              <Image src={homex2} alt="image" className={styles.images} />
-              <Image src={homex3} alt="image" className={styles.images} />
-              <Image src={homex4} alt="image" className={styles.images} />
-              <Image src={homex5} alt="image" className={styles.images} />
-              <Image src={homex6} alt="image" className={styles.images} />
-              <Image src={homex7} alt="image" className={styles.images} />
-            </Carousel>
-            <h5 className={styles.homexCardText}>User-friendly Interface</h5>
+            <div className={styles.homexImages}>
+              <Carousel
+                showArrows={false}
+                showStatus={false}
+                showIndicators={false} // Hide status indicators
+                infiniteLoop={true} // Enable infinite loop
+                autoPlay={true} // Enable auto play
+                interval={3000} // Set auto play interval (milliseconds)
+                stopOnHover={false} // Stop auto play on hover
+                transitionTime={500} // Set transition time (milliseconds)
+                axis="horizontal"
+              >
+                <Image src={homex1} alt="image" className={styles.images} />
+                <Image src={homex2} alt="image" className={styles.images} />
+                <Image src={homex3} alt="image" className={styles.images} />
+                <Image src={homex4} alt="image" className={styles.images} />
+                <Image src={homex5} alt="image" className={styles.images} />
+                <Image src={homex6} alt="image" className={styles.images} />
+                <Image src={homex7} alt="image" className={styles.images} />
+              </Carousel>
+            </div>
+
+            <h5 className={styles.homexCardText}>User-friendly Interface:</h5>
+            <p className={styles.homexCardParagraph}>
+              Navigate with ease through our sleek and intuitive interface,
+              <br />
+              where every tap brings you closer to your dream property.
+            </p>
           </div>
         </div>
       </div>
