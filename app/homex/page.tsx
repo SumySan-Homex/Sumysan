@@ -14,6 +14,7 @@ import homex7 from "../../public/homex7.png";
 import homex8 from "../../public/homex8.png";
 import homex9 from "../../public/homex9.png";
 import homex10 from "../../public/homex10.png";
+import homex11 from "../../public/homex11.png";
 import styles from "../../styles/page.module.css";
 
 const images = [
@@ -129,6 +130,18 @@ const Homex = () => {
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;property
             search journey.
           </p>
+        </div>
+
+        <div className={styles.homexCard6}>
+          <Image src={homex11} alt="image" height={400} />
+          <div className={styles.card5TextContents}>
+            <h5 className={styles.homexCardText5}>Unveil Your Future Home</h5>
+            <p className={styles.homexCardParagraph5}>
+              Immerse yourself in the comfort of your couch <br /> and explore
+              properties like never before with our <br /> captivating virtual
+              tours.
+            </p>
+          </div>
         </div>
       </div>
     </div>
