@@ -12,6 +12,7 @@ import homex5 from "../../public/homex5.png";
 import homex6 from "../../public/homex6.png";
 import homex7 from "../../public/homex7.png";
 import homex8 from "../../public/homex8.png";
+import homex9 from "../../public/homex9.png";
 import styles from "../../styles/page.module.css";
 
 const images = [
@@ -89,6 +90,21 @@ const Homex = () => {
           </div>
 
           <Image src={homex8} alt="image" />
+        </div>
+
+        <div className={styles.homexCard3}>
+          <Image src={homex9} alt="image" />
+          <div className={styles.card3TextContents}>
+            <h5 className={styles.homexCardText2}>Advanced Search:</h5>
+            <p className={styles.homexCardParagraph2}>
+              Fine-tune your search with precision using our <br />
+              advanced search filters, ensuring you find the <br />
+              perfect match for your lifestyle and preferences.
+            </p>
+            <button type="button" className={styles.homexButton1}>
+              Learn More
+            </button>
+          </div>
         </div>
       </div>
     </div>
