@@ -13,6 +13,7 @@ import homex6 from "../../public/homex6.png";
 import homex7 from "../../public/homex7.png";
 import homex8 from "../../public/homex8.png";
 import homex9 from "../../public/homex9.png";
+import homex10 from "../../public/homex10.png";
 import styles from "../../styles/page.module.css";
 
 const images = [
@@ -105,6 +106,29 @@ const Homex = () => {
               Learn More
             </button>
           </div>
+        </div>
+
+        <div className={styles.homexCard4}>
+          <h5 className={styles.homexCardText3}>Your Perfect Home Awaits</h5>
+          <Image src={homex10} alt="image" />
+          <p className={styles.homexCardParagraph3}>
+            Dive deep into our extensive database with an advanced search like
+            no <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;other,
+            guiding you to your ideal living space effortlessly.
+          </p>
+        </div>
+
+        <div className={styles.homexCard5}>
+          <h5 className={styles.homexCardText4}>Instant Connectivity:</h5>
+          <p className={styles.homexCardParagraph4}>
+            Connect directly with property owners or managers in real-time,
+            <br />
+            &nbsp;&nbsp;&nbsp;making communication swift and seamless throughout
+            your <br />{" "}
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;property
+            search journey.
+          </p>
         </div>
       </div>
     </div>
