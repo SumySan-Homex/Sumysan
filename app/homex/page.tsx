@@ -15,6 +15,7 @@ import homex8 from "../../public/homex8.png";
 import homex9 from "../../public/homex9.png";
 import homex10 from "../../public/homex10.png";
 import homex11 from "../../public/homex11.png";
+import homex12 from "../../public/homex12.png";
 import styles from "../../styles/page.module.css";
 
 const images = [
@@ -141,6 +142,23 @@ const Homex = () => {
               properties like never before with our <br /> captivating virtual
               tours.
             </p>
+          </div>
+        </div>
+
+        <div className={styles.homexCard7}>
+          <Image src={homex12} alt="image" />
+          <div className={styles.card6TextContents}>
+            <h5 className={styles.homexCardText6}>
+              Your Dream Property, Just a Click Away
+            </h5>
+            <p className={styles.homexCardParagraph6}>
+              Experience the power of instant connectivity as <br /> you connect
+              with property owners at the touch of <br /> a button, making your
+              dream property closer than <br /> ever before.
+            </p>
+            <button type="button" className={styles.homexButton1}>
+              Learn More
+            </button>
           </div>
         </div>
       </div>
