@@ -161,6 +161,38 @@ const Homex = () => {
             </button>
           </div>
         </div>
+
+        <div className={styles.homexCard8}>
+          <div className={styles.card7TextContents}>
+            <h5 className={styles.homexCardText7}>Ratings and Reviews:</h5>
+            <p className={styles.homexCardParagraph7}>
+              Make informed decisions with confidence using <br /> our
+              transparent ratings and reviews system, <br /> giving you insights
+              into properties and owners <br /> like never before.
+            </p>
+
+            <button type="button" className={styles.homexButton}>
+              Learn More
+            </button>
+          </div>
+
+          <Image src={homex12} alt="image" />
+        </div>
+
+        <div className={styles.homexCard9}>
+          <button type="button" className={styles.homexButton}>
+            Learn More
+          </button>
+
+          <div className={styles.card8TextContents}>
+            <h5 className={styles.homexCardText8}>Trust in Your Choices:</h5>
+            <p className={styles.homexCardParagraph8}>
+              Navigate your property search journey with <br /> confidence,
+              backed by genuine ratings and <br /> reviews from our trusted
+              community of users.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -578,6 +578,94 @@
         }
       }
     }
+
+    .homexCard8 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      width: 70rem;
+      height: 30rem;
+      background: linear-gradient(
+        to right,
+        rgba(119, 182, 91, 1),
+        rgba(119, 182, 91, 0)
+      );
+      border: #b4dfa1;
+      border-radius: 2rem;
+      margin-top: 3rem;
+
+      .card7TextContents {
+        margin-top: 2rem;
+        margin-left: 2rem;
+
+        .homexCardText7 {
+          font-size: 35.49px;
+          font-weight: 500;
+          color: #132445;
+        }
+
+        .homexCardParagraph7 {
+          font-size: 20.49px;
+          font-weight: 300;
+          margin-top: 2rem;
+        }
+
+        .homexButton {
+          width: 8rem;
+          height: 2.5rem;
+          background-color: #b4dfa1;
+          border: none;
+          font-weight: bolder;
+          margin-top: 3rem;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .homexCard9 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      width: 70rem;
+      height: 30rem;
+      background: linear-gradient(
+        to right,
+        rgba(119, 182, 91, 1),
+        rgba(119, 182, 91, 0)
+      );
+      border: #b4dfa1;
+      border-radius: 2rem;
+      margin-top: 3rem;
+
+      .homexButton {
+        width: 8rem;
+        height: 2.5rem;
+        background-color: #b4dfa1;
+        border: none;
+        font-weight: bolder;
+        margin-top: 3rem;
+        cursor: pointer;
+      }
+
+      .card8TextContents {
+        margin-top: 2rem;
+        margin-left: 2rem;
+
+        .homexCardText8 {
+          font-size: 25.49px;
+          font-weight: 300;
+          color: #132445;
+        }
+
+        .homexCardParagraph8 {
+          font-size: 20.49px;
+          font-weight: 300;
+          margin-top: 2rem;
+        }
+      }
+    }
   }
 }
 
