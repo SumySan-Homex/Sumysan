@@ -193,6 +193,49 @@ const Homex = () => {
             </p>
           </div>
         </div>
+
+        <div className={styles.homexCard10}>
+          <div className={styles.contentsContainer}>
+            <div className={styles.content1}>
+              <h5 className={styles.headerContent1}>Explore Homex:</h5>
+              <p className={styles.paragraphContent1}>
+                Embark on a journey of discovery and find your perfect property
+                match <br /> with Homex. Start exploring today and unlock a
+                world of possibilities.
+              </p>
+              <button type="button" className={styles.homexButton}>
+                Learn More
+              </button>
+            </div>
+
+            <div className={styles.content2}>
+              <p className={styles.paragraphContent2}>
+                Ready to dive deeper into the world of <br /> Homex? Click below
+                to uncover the full <br /> spectrum of features and benefits
+                waiting <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;for you.
+              </p>
+              <button type="button" className={styles.homexButton}>
+                Learn More
+              </button>
+            </div>
+
+            <div className={styles.content3}>
+              <h5 className={styles.headerContent3}>
+                Find your home according to your budget.
+              </h5>
+              <p className={styles.paragraphContent3}>
+                Our friendly home recommendation AI that helps you find homes
+                that suit your needs and budgets.
+              </p>
+              <button type="button" className={styles.homexButton}>
+                Explore
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

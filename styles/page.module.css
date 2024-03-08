@@ -666,6 +666,108 @@
         }
       }
     }
+
+    .homexCard10 {
+      background: rgba(256, 256, 256, 0.5);
+      width: 70rem;
+      height: 48rem;
+      border: #ffffff;
+      border-radius: 2rem;
+      margin-top: 3rem;
+
+      .contentsContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 3rem;
+
+        .content1 {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
+
+          .headerContent1 {
+            font-size: 25.49px;
+            font-weight: 500;
+            color: #132445;
+          }
+
+          .paragraphContent1 {
+            font-size: 20.49px;
+            font-weight: 300;
+            margin-top: 2rem;
+          }
+
+          .homexButton {
+            width: 8rem;
+            height: 2.5rem;
+            background-color: #b4dfa1;
+            border: none;
+            font-weight: bolder;
+            margin-top: 2rem;
+            cursor: pointer;
+          }
+        }
+
+        .content2 {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
+          margin-top: 3rem;
+
+          .paragraphContent2 {
+            font-size: 20.49px;
+            font-weight: 300;
+            margin-top: 2rem;
+          }
+
+          .homexButton {
+            width: 8rem;
+            height: 2.5rem;
+            background-color: #b4dfa1;
+            border: none;
+
+            font-weight: bolder;
+            margin-top: 2rem;
+            cursor: pointer;
+          }
+        }
+
+        .content3 {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
+          margin-top: 5rem;
+
+          .headerContent3 {
+            font-size: 2.5rem;
+            font-weight: 400;
+            color: #132445;
+          }
+
+          .paragraphContent3 {
+            font-size: 20.49px;
+            font-weight: 300;
+            margin-top: 1rem;
+          }
+
+          .homexButton {
+            width: 8rem;
+            height: 2.5rem;
+            background-color: #b4dfa1;
+            border: none;
+            border-radius: 1rem;
+            font-weight: bolder;
+            margin-top: 2rem;
+            cursor: pointer;
+          }
+        }
+      }
+    }
   }
 }
 
