@@ -19,7 +19,7 @@ const SumysanLab = () => {
             knowledge and confidence to make informed <br /> decisions on your
             real estate journey. Whether <br /> you are a seasoned investor, a
             first-time <br />
-            homebuyer, or simply curious about the market <br />, X-Space offers
+            homebuyer, or simply curious about the market, <br /> X-Space offers
             a wealth of resources designed <br /> to educate and inspire you.
           </p>
           <button className={styles.buttonLink}>
