@@ -254,13 +254,16 @@
     }
 
     .paragraphText {
-      font-weight: 300;
+      font-weight: 100;
       font-size: 1rem;
       padding-top: 1rem;
     }
 
     .productImageContainer1 {
       margin-bottom: 5.5rem;
+    }
+    .productImageContainer2 {
+      margin-bottom: 7.5rem;
     }
 
     .buttonLink {
