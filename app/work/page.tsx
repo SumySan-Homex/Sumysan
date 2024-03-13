@@ -10,10 +10,18 @@ const Work = () => {
   return (
     <div className={styles.workContainer}>
       <div className={styles.workContent1}>
-        <h4>
+        <h4 className={styles.workContentHeader}>
           Charting Your Career Path: <br />
           Work for Us at SUMYSAN!
         </h4>
+
+        <Image src={work1} alt="image" width={479} height={320} />
+      </div>
+
+      <div className={styles.workContent2}>
+        <div className={styles.workCard1}>
+          <h5>Why Work For Us ?</h5>
+        </div>
       </div>
     </div>
   );
