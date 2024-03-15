@@ -84,6 +84,26 @@ const Work = () => {
             <Image src={work2} alt="image" width={400} height={220} />
           </div>
         </div>
+
+        <div className={styles.workCard3}>
+          <div className={styles.workCardContent3}>
+            <Image src={work3} alt="image" width={400} height={220} />
+
+            <div>
+              <h5 className={styles.workCardHeader3}>How to Work for Us:</h5>
+              <h6 className={styles.workCardHeader33}>
+                2. Let Us Know Your Interest: 
+              </h6>
+              <p className={styles.workCardParagraph3}>
+                Even if there is not a perfect fit currently, submit,
+                <br /> your resume and a cover letter expressing your
+                <br /> interest in joining our team. We are always looking
+                <br /> for talented individuals who share our vision.
+              </p>
+              <button className={styles.workButton}>Learn More</button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

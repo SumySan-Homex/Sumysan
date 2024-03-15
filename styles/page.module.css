@@ -1121,7 +1121,55 @@
           border: 1px solid #b4dfa1;
           font-weight: 600;
           font-size: small;
+          cursor: pointer;
+          margin-top: 2rem;
+        }
+      }
+    }
 
+    .workCard3 {
+      width: 70rem;
+      height: 20rem;
+      border: 1px #b4dfa1;
+      border-radius: 2rem;
+      background: linear-gradient(
+        to right,
+        rgba(119, 182, 91, 1),
+        rgba(119, 182, 91, 0)
+      );
+      margin-top: 4rem;
+
+      .workCardContent3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 3rem;
+
+        .workCardHeader3 {
+          font-size: 30.49px;
+          font-weight: 400;
+          color: #132445;
+        }
+
+        .workCardHeader33 {
+          font-size: 20.49px;
+          font-weight: 600;
+          margin-left: 1rem;
+          margin-top: 2rem;
+        }
+
+        .workCardParagraph3 {
+          font-weight: 300;
+        }
+
+        .workButton {
+          width: 6rem;
+          height: 2rem;
+          background-color: #b4dfa1;
+          border: 1px solid #b4dfa1;
+          font-weight: 600;
+          font-size: small;
           cursor: pointer;
           margin-top: 2rem;
         }
