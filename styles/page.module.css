@@ -1214,5 +1214,35 @@
         }
       }
     }
+
+    .workCard5 {
+      background: rgba(256, 256, 256, 0.5);
+      width: 70rem;
+      height: 18rem;
+      border: 1px #b4dfa1;
+      border-radius: 2rem;
+      margin-top: 4rem;
+      margin-bottom: 2rem;
+
+      .workCardContent5 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+
+        .workCardHeader5 {
+          font-size: 30.49px;
+          font-weight: 400;
+          color: #132445;
+          margin-top: 2rem;
+        }
+
+        .workCardParagraph5 {
+          font-weight: 300;
+          margin-top: 1rem;
+        }
+      }
+    }
   }
 }

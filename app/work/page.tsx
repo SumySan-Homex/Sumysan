@@ -120,6 +120,26 @@ const Work = () => {
             </p>
           </div>
         </div>
+
+        <div className={styles.workCard5}>
+          <div className={styles.workCardContent5}>
+            <h5 className={styles.workCardHeader5}>
+              We are looking for individuals who are:
+            </h5>
+            <p className={styles.workCardParagraph5}>
+              • Passionate about real estate and technology
+            </p>
+            <p className={styles.workCardParagraph5}>
+              • Eager to learn and grow in a fast-paced environment
+            </p>
+            <p className={styles.workCardParagraph5}>
+              • Team players with a collaborative spirit
+            </p>
+            <p className={styles.workCardParagraph5}>
+              • Driven to achieve excellence
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
