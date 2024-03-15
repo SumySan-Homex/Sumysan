@@ -4,6 +4,7 @@ import Link from "next/link";
 import work1 from "../../public/work1.png";
 import work2 from "../../public/work2.png";
 import work3 from "../../public/work3.png";
+import work4 from "../../public/work4.png";
 import styles from "../../styles/page.module.css";
 
 const Work = () => {
@@ -102,6 +103,21 @@ const Work = () => {
               </p>
               <button className={styles.workButton}>Learn More</button>
             </div>
+          </div>
+        </div>
+
+        <div className={styles.workCard4}>
+          <div className={styles.workCardContent4}>
+            <Image src={work4} alt="image" width={400} height={220} />
+            <h5 className={styles.workCardHeader4}>How to Work for Us:</h5>
+            <h6 className={styles.workCardHeader44}>
+              3. Follow Us on all Social Media 
+            </h6>
+            <p className={styles.workCardParagraph4}>
+              Stay updated on our latest job postings and company culture by
+              <br />
+              following us on social media platforms like LinkedIn.
+            </p>
           </div>
         </div>
       </div>

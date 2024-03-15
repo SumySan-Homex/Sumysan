@@ -1175,5 +1175,44 @@
         }
       }
     }
+
+    .workCard4 {
+      width: 70rem;
+      height: 30rem;
+      border: 1px #b4dfa1;
+      border-radius: 2rem;
+      background: linear-gradient(
+        to right,
+        rgba(119, 182, 91, 1),
+        rgba(119, 182, 91, 0)
+      );
+      margin-top: 4rem;
+
+      .workCardContent4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+
+        .workCardHeader4 {
+          font-size: 30.49px;
+          font-weight: 400;
+          color: #132445;
+          margin-top: 2rem;
+        }
+
+        .workCardHeader44 {
+          font-size: 20.49px;
+          font-weight: 600;
+          margin-right: 10rem;
+          margin-top: 2rem;
+        }
+
+        .workCardParagraph4 {
+          font-weight: 300;
+        }
+      }
+    }
   }
 }
