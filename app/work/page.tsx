@@ -70,14 +70,16 @@ const Work = () => {
           <div className={styles.workCardContent2}>
             <div>
               <h5 className={styles.workCardHeader2}>How to Work for Us:</h5>
-              <h6>1. Browse Current Openings: </h6>
-              <p>
+              <h6 className={styles.workCardHeader22}>
+                1. Browse Current Openings: 
+              </h6>
+              <p className={styles.workCardParagraph2}>
                 Visit our careers page [link to careers page] to <br /> explore
                 exciting opportunities across various <br /> departments. We
                 offer roles for individuals with
                 <br /> diverse skillsets and experience levels.
               </p>
-              <button>Learn More</button>
+              <button className={styles.workButton}>Learn More</button>
             </div>
             <Image src={work2} alt="image" width={400} height={220} />
           </div>
