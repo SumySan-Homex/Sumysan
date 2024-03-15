@@ -1051,7 +1051,7 @@
         align-items: center;
         margin-top: 3rem;
 
-        .workCardHeader {
+        .workCardHeader1 {
           font-size: 35.49px;
           font-weight: 400;
           color: #132445;
@@ -1062,16 +1062,40 @@
           flex-direction: row;
           justify-content: space-between;
           align-items: center;
-          margin-top: 1rem;
+          margin-top: 2rem;
 
           .workCardParagraphs11 {
-            margin-right: 15rem;
+            margin-right: 5rem;
+            font-size: 1.2rem;
+            font-weight: 300;
           }
           .workCardParagraphs12 {
             margin-left: 5rem;
             margin-bottom: 2rem;
+            font-size: 1.2rem;
+            font-weight: 300;
           }
         }
+      }
+    }
+    .workCard2 {
+      width: 70rem;
+      height: 28rem;
+      border: 1px #b4dfa1;
+      border-radius: 2rem;
+      background: linear-gradient(
+        to right,
+        rgba(119, 182, 91, 1),
+        rgba(119, 182, 91, 0)
+      );
+      margin-top: 4rem;
+
+      .workCardContent2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 3rem;
       }
     }
   }
