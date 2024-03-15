@@ -140,6 +140,16 @@ const Work = () => {
             </p>
           </div>
         </div>
+
+        <div className={styles.workContent3}>
+          <h5 className={styles.workCardHeader5}>
+            Ready to join the revolution?
+            <br />
+            &nbsp;&nbsp;&nbsp;Work for Us at SUMYSAN
+          </h5>
+
+          <button className={styles.workButton}>Visit Site</button>
+        </div>
       </div>
     </div>
   );

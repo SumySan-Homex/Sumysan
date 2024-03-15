@@ -1244,5 +1244,33 @@
         }
       }
     }
+
+    .workContent3 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 3rem;
+      margin-bottom: 2rem;
+
+      .workCardHeader5 {
+        font-size: 30.49px;
+        font-weight: 400;
+        color: #132445;
+        margin-top: 2rem;
+      }
+
+      .workButton {
+        width: 6.5rem;
+        height: 3rem;
+        background-color: #b4dfa1;
+        border: 1px solid #b4dfa1;
+        border-radius: 2rem;
+        font-weight: 600;
+        font-size: small;
+        cursor: pointer;
+        margin-top: 2rem;
+      }
+    }
   }
 }
