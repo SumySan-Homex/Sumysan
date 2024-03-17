@@ -4,9 +4,13 @@ import Link from "next/link";
 import pro2 from "../../public/pro2.png";
 import pro3 from "../../public/pro3.png";
 import styles from "../../styles/page.module.css";
+import Navbar from "@/components/Navbar";
+
 
 const SumysanLab = () => {
   return (
+    <div>
+      <Navbar />
     <div className={styles.productContainer}>
       <div className={styles.productImages}>
         <div className={styles.productImageContainer1}>
