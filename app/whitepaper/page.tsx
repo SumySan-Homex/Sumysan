@@ -142,9 +142,9 @@ const Whitepaper = () => {
               <br /> overall experience for stakeholders.
             </p>
           </div>
+
           <div className={styles.wpCardContent6i}>
             <h5 className={styles.wpCardContent6iHeader}>2. Transparency:</h5>
-
             <p className={styles.wpCardContent6iParagraph}>
                Blockchain technology, for instance, can bring unprecedented
               transparency to property
@@ -152,9 +152,9 @@ const Whitepaper = () => {
               individuals with clear ownership information.
             </p>
           </div>
+
           <div className={styles.wpCardContent6i}>
             <h5 className={styles.wpCardContent6iHeader}>3. Accessibility:</h5>
-
             <p className={styles.wpCardContent6iParagraph}>
               Technology has the potential to democratise real estate
               investment, enabling fractional
@@ -162,34 +162,58 @@ const Whitepaper = () => {
               of investors.
             </p>
           </div>
+
           <div className={styles.wpCardContent6i}>
             <h5 className={styles.wpCardContent6iHeader}>
               4. Data Empowerment:
             </h5>
-
             <p className={styles.wpCardContent6iParagraph}>
               Advanced data analytics and AI can provide actionable insights
               into market trends, enabling
               <br /> smarter investment decisions.
             </p>
           </div>
+
           <div className={styles.wpCardContent6i}>
             <h5 className={styles.wpCardContent6iHeader}>5. Security:</h5>
-
             <p className={styles.wpCardContent6iParagraph}>
               Blockchain and advanced encryption can provide robust security in
               real estate transactions,
               <br /> safeguarding sensitive information.
             </p>
           </div>
+
           <div className={styles.wpCardContent6i}>
             <h5 className={styles.wpCardContent6iHeader}>6. Innovation: </h5>
-
             <p className={styles.wpCardContent6iParagraph}>
               Embracing innovation positions the industry to adapt to emerging
               trends, including the
               <br /> metaverse, which is reshaping how people experience real
               estate.
+            </p>
+          </div>
+        </div>
+
+        <div className={styles.wpCard7}>
+          <div className={styles.wpCardContent}>
+            <p className={styles.wpCardParagraph7}>
+              Sumysan, at its core, recognizes these challenges and the immense
+              potential for transformative
+              <br /> change. We are on a mission to revolutionize the real
+              estate industry by harnessing cutting edge
+              <br />
+              &nbsp;&nbsp;technologies, including artificial intelligence,
+              quantum computing, blockchain, and metaverse
+              <br /> &nbsp;&nbsp;&nbsp;&nbsp;integration. Our vision is to
+              create an ecosystem where real estate transactions are efficient,
+              <br />
+              secure, transparent, and accessible to all. Sumysan is not just a
+              company; it is a commitment to
+              <br /> &nbsp;&nbsp;&nbsp;&nbsp;realizing a future where real
+              estate truly serves the needs and aspirations of individuals and
+              <br />
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;communities.
+              Welcome to the future of real estate.
             </p>
           </div>
         </div>
