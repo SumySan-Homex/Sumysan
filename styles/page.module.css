@@ -1124,6 +1124,37 @@
         }
       }
     }
+
+    .wpCard6 {
+      width: 70rem;
+      height: 40rem;
+      border: 1px solid black;
+      border-radius: 2rem;
+      background: rgba(256, 256, 256, 0.5);
+
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+
+      .wpCardContent6 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 2rem;
+
+        .wpCardHeader6 {
+          font-size: 45.19px;
+          font-weight: 400;
+          color: #132445;
+        }
+
+        .wpCardParagraph6 {
+          font-size: 19px;
+          font-weight: 200;
+          margin-top: 1.5rem;
+        }
+      }
+    }
   }
 }
 

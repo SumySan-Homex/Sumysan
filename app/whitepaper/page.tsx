@@ -114,6 +114,23 @@ const Whitepaper = () => {
             <Image src={wp1} alt="wp1" />
           </div>
         </div>
+
+        <div className={styles.wpCard6}>
+          <div className={styles.wpCardContent6}>
+            <h4 className={styles.wpCardHeader6}>
+              The Imperative for Innovation and Technology
+            </h4>
+            <p className={styles.wpCardParagraph6}>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In an age
+              characterised by digital transformation and the rapid evolution of
+              <br /> technologies, the real estate industry stands at a
+              crossroads. The need for innovation
+              <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and
+              technology in this sector has never been more evident. Here is
+              why:
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
