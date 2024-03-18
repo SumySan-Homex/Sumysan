@@ -1127,7 +1127,7 @@
 
     .wpCard6 {
       width: 70rem;
-      height: 40rem;
+      height: 100rem;
       border: 1px solid black;
       border-radius: 2rem;
       background: rgba(256, 256, 256, 0.5);
@@ -1150,6 +1150,22 @@
 
         .wpCardParagraph6 {
           font-size: 19px;
+          font-weight: 200;
+          margin-top: 1.5rem;
+        }
+      }
+
+      .wpCardContent6i {
+        margin: 4rem;
+
+        .wpCardContent6iHeader {
+          font-size: 30.19px;
+          font-weight: 300;
+          color: #132445;
+        }
+
+        .wpCardContent6iParagraph {
+          font-size: 22px;
           font-weight: 200;
           margin-top: 1.5rem;
         }

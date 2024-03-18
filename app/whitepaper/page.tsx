@@ -130,6 +130,68 @@ const Whitepaper = () => {
               why:
             </p>
           </div>
+
+          <div className={styles.wpCardContent6i}>
+            <h5 className={styles.wpCardContent6iHeader}>1. Efficiency:</h5>
+
+            <p className={styles.wpCardContent6iParagraph}>
+              Technology can streamline the entire real estate lifecycle, from
+              property searches to
+              <br /> transactions and management. This efficiency reduces costs,
+              saves time, and enhances the
+              <br /> overall experience for stakeholders.
+            </p>
+          </div>
+          <div className={styles.wpCardContent6i}>
+            <h5 className={styles.wpCardContent6iHeader}>2. Transparency:</h5>
+
+            <p className={styles.wpCardContent6iParagraph}>
+               Blockchain technology, for instance, can bring unprecedented
+              transparency to property
+              <br /> records, reducing disputes and fraud. It empowers
+              individuals with clear ownership information.
+            </p>
+          </div>
+          <div className={styles.wpCardContent6i}>
+            <h5 className={styles.wpCardContent6iHeader}>3. Accessibility:</h5>
+
+            <p className={styles.wpCardContent6iParagraph}>
+              Technology has the potential to democratise real estate
+              investment, enabling fractional
+              <br /> ownership and making it more accessible to a broader range
+              of investors.
+            </p>
+          </div>
+          <div className={styles.wpCardContent6i}>
+            <h5 className={styles.wpCardContent6iHeader}>
+              4. Data Empowerment:
+            </h5>
+
+            <p className={styles.wpCardContent6iParagraph}>
+              Advanced data analytics and AI can provide actionable insights
+              into market trends, enabling
+              <br /> smarter investment decisions.
+            </p>
+          </div>
+          <div className={styles.wpCardContent6i}>
+            <h5 className={styles.wpCardContent6iHeader}>5. Security:</h5>
+
+            <p className={styles.wpCardContent6iParagraph}>
+              Blockchain and advanced encryption can provide robust security in
+              real estate transactions,
+              <br /> safeguarding sensitive information.
+            </p>
+          </div>
+          <div className={styles.wpCardContent6i}>
+            <h5 className={styles.wpCardContent6iHeader}>6. Innovation: </h5>
+
+            <p className={styles.wpCardContent6iParagraph}>
+              Embracing innovation positions the industry to adapt to emerging
+              trends, including the
+              <br /> metaverse, which is reshaping how people experience real
+              estate.
+            </p>
+          </div>
         </div>
       </div>
     </div>
