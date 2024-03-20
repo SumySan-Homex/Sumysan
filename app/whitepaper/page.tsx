@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import wp1 from "../../public/wp1.png";
+import wp2 from "../../public/wp2.png";
+import wp3 from "../../public/wp3.png";
 import styles from "../../styles/page.module.css";
 
 const Whitepaper = () => {
@@ -217,62 +219,68 @@ const Whitepaper = () => {
             </p>
           </div>
         </div>
-      </div>
 
-      <div className={styles.wpTextContainer}>
-        <h3 className={styles.wpText}>PRODUCTS OF SUMYSAN</h3>
-      </div>
+        <div className={styles.wpTextContainer2}>
+          <h3 className={styles.wpText2}>PRODUCTS OF SUMYSAN</h3>
+        </div>
 
-      <div className={styles.wpCard8}>
-        <div className={styles.wpCardContent8}>
-          <div>
-            <h6>1. Prop Search</h6>
-            <p>
-              Prop Search is a user-friendly application
-              <br /> that redefines how individuals search for,
-              <br /> connect with, and experience properties. It
-              <br /> operates with the ease and accessibility of
-              <br /> ride-sharing apps like Uber and Bolt. The key
-              <br /> features and functionalities include:
-            </p>
+        <div className={styles.wpCard8}>
+          <div className={styles.wpCardContent8}>
+            <div>
+              <h6>1. Prop Search</h6>
+              <p>
+                Prop Search is a user-friendly application
+                <br /> that redefines how individuals search for,
+                <br /> connect with, and experience properties. It
+                <br /> operates with the ease and accessibility of
+                <br /> ride-sharing apps like Uber and Bolt. The key
+                <br /> features and functionalities include:
+              </p>
 
-            <p>
-              1. User-Friendly Interface: Prop Search
-              <br /> offers an intuitive and easy-to-navigate
-              <br /> interface that simplifies property searches.
-            </p>
-            <p>
-              2. Property Tour: A standout feature allows
-              <br /> users to virtually tour properties through
-              <br /> videos uploaded by property owners or
-              <br />
-              managers. This immersive experience
-              <br /> provides potential buyers or renters with
-              <br /> an in-depth understanding of the
-              <br /> property&apos;s layout and condition.
-            </p>
-            <p>
-              3. Advanced Search: Users can fine-tune
-              <br /> their property searches by location, price
-              <br /> range, amenities, and more, ensuring that
-              <br /> they find the perfect match for their
-              <br /> needs.
-            </p>
-            <p>
-              4. Instant Connectivity: The app facilitates
-              <br /> direct connections between property
-              <br /> seekers and property owners or
-              <br /> managers, streamlining communication
-              <br /> and reducing delays in the transaction
-              <br />
-              process.
-            </p>
-            <p>
-              5. Ratings and Reviews: Users can leave and
-              <br /> view ratings and reviews for properties
-              <br /> and property owners, enhancing
-              <br /> transparency and trust within the platform.
-            </p>
+              <p>
+                1. User-Friendly Interface: Prop Search
+                <br /> offers an intuitive and easy-to-navigate
+                <br /> interface that simplifies property searches.
+              </p>
+              <p>
+                2. Property Tour: A standout feature allows
+                <br /> users to virtually tour properties through
+                <br /> videos uploaded by property owners or
+                <br />
+                managers. This immersive experience
+                <br /> provides potential buyers or renters with
+                <br /> an in-depth understanding of the
+                <br /> property&apos;s layout and condition.
+              </p>
+              <p>
+                3. Advanced Search: Users can fine-tune
+                <br /> their property searches by location, price
+                <br /> range, amenities, and more, ensuring that
+                <br /> they find the perfect match for their
+                <br /> needs.
+              </p>
+              <p>
+                4. Instant Connectivity: The app facilitates
+                <br /> direct connections between property
+                <br /> seekers and property owners or
+                <br /> managers, streamlining communication
+                <br /> and reducing delays in the transaction
+                <br />
+                process.
+              </p>
+              <p>
+                5. Ratings and Reviews: Users can leave and
+                <br /> view ratings and reviews for properties
+                <br /> and property owners, enhancing
+                <br /> transparency and trust within the platform.
+              </p>
+            </div>
+            <div>
+              <Image src={wp2} alt="image" />
+            </div>
+            <div>
+              <Image src={wp3} alt="image" />
+            </div>
           </div>
         </div>
       </div>
