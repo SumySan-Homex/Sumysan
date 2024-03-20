@@ -226,60 +226,78 @@ const Whitepaper = () => {
 
         <div className={styles.wpCard8}>
           <div className={styles.wpCardContent8}>
-            <div>
-              <h6>1. Prop Search</h6>
-              <p>
+            <div className={styles.wpTextContainer8}>
+              <h6 className={styles.wpCardHeader8}>1. Prop Search</h6>
+              <p className={styles.wpCardParagraph8}>
                 Prop Search is a user-friendly application
-                <br /> that redefines how individuals search for,
-                <br /> connect with, and experience properties. It
-                <br /> operates with the ease and accessibility of
-                <br /> ride-sharing apps like Uber and Bolt. The key
-                <br /> features and functionalities include:
+                <br />
+                that redefines how individuals search for,
+                <br />
+                connect with, and experience properties. It
+                <br />
+                operates with the ease and accessibility of
+                <br />
+                ride-sharing apps like Uber and Bolt. The key
+                <br />
+                features and functionalities include:
               </p>
 
-              <p>
+              <p className={styles.wpCardParagraph8i}>
                 1. User-Friendly Interface: Prop Search
-                <br /> offers an intuitive and easy-to-navigate
-                <br /> interface that simplifies property searches.
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;offers an intuitive and
+                easy-to-navigate
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;interface that simplifies
+                property <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;searches.
               </p>
-              <p>
+              <p className={styles.wpCardParagraph8i}>
                 2. Property Tour: A standout feature allows
-                <br /> users to virtually tour properties through
-                <br /> videos uploaded by property owners or
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;users to virtually tour
+                properties through
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;videos uploaded by property
+                owners or
                 <br />
-                managers. This immersive experience
-                <br /> provides potential buyers or renters with
-                <br /> an in-depth understanding of the
-                <br /> property&apos;s layout and condition.
+                &nbsp;&nbsp;&nbsp;&nbsp;managers. This immersive experience
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;provides potential buyers or
+                renters with
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;an in-depth understanding of the
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;property&apos;s layout and
+                condition.
               </p>
-              <p>
+              <p className={styles.wpCardParagraph8i}>
                 3. Advanced Search: Users can fine-tune
-                <br /> their property searches by location, price
-                <br /> range, amenities, and more, ensuring that
-                <br /> they find the perfect match for their
-                <br /> needs.
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;their property searches by
+                location, price
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;range, amenities, and more,
+                ensuring that
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;they find the perfect match for
+                their
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;needs.
               </p>
-              <p>
+              <p className={styles.wpCardParagraph8i}>
                 4. Instant Connectivity: The app facilitates
-                <br /> direct connections between property
-                <br /> seekers and property owners or
-                <br /> managers, streamlining communication
-                <br /> and reducing delays in the transaction
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;direct connections between
+                property
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;seekers and property owners or
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;managers, streamlining
+                communication
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;and reducing delays in the
+                transaction
                 <br />
-                process.
+                &nbsp;&nbsp;&nbsp;&nbsp;process.
               </p>
-              <p>
+              <p className={styles.wpCardParagraph8i}>
                 5. Ratings and Reviews: Users can leave and
-                <br /> view ratings and reviews for properties
-                <br /> and property owners, enhancing
-                <br /> transparency and trust within the platform.
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;view ratings and reviews for
+                properties
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;and property owners, enhancing
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;transparency and trust within the
+                platform.
               </p>
             </div>
-            <div>
-              <Image src={wp2} alt="image" />
-            </div>
-            <div>
-              <Image src={wp3} alt="image" />
+            <div className={styles.wpImageContainer8}>
+              <Image src={wp2} alt="image" width={400} height={500} />
+              <Image src={wp3} alt="image" width={400} height={380} />
             </div>
           </div>
         </div>
