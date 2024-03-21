@@ -564,6 +564,63 @@ const Whitepaper = () => {
             </div>
           </div>
         </div>
+
+        <div className={styles.wpCard13}>
+          <div className={styles.wpCardContent13}>
+            <div className={styles.wpImageContainer13}>
+              <Image src={wp4} alt="image" height={550} />
+            </div>
+            <div className={styles.wpTextContainer13}>
+              <h6 className={styles.wpCardHeader13}>4. Prop Lab</h6>
+              <p className={styles.wpCardParagraph13}>
+                Prop Lab serves as an educational and
+                <br /> research hub within the Sumysan ecosystem,
+                <br /> offering a wealth of resources and tools for
+                <br />
+                industry professionals and enthusiasts:
+              </p>
+              <p className={styles.wpCardParagraph13i}>
+                1. Educational Resources: Prop Lab provides
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;courses, webinars, and articles
+                on various
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;real estate topics, including
+                emerging
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;technologies, market trends, and
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;investment strategies.
+              </p>
+              <p className={styles.wpCardParagraph13i}>
+                2. Research Opportunities: Users can access
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;research reports, market
+                analyses, and
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;data-driven insights to stay
+                informed
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;about the latest developments in
+                the real
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;estate industry.
+              </p>
+              <p className={styles.wpCardParagraph13i}>
+                3. Virtual Seminars: Prop Lab hosts virtual
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;seminars, conferences, and
+                discussions,
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;bringing together thought leaders
+                and
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;experts to share their knowledge
+                and
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;experiences.
+              </p>
+              <p className={styles.wpCardParagraph13i}>
+                4. Access to Data: The platform grants
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;access to data sets and analytics
+                tools,
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;allowing researchers to conduct
+                in-depth
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;studies and analyses.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
