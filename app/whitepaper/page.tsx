@@ -308,7 +308,6 @@ const Whitepaper = () => {
             <div className={styles.wpImageContainer9}>
               <Image src={wp4} alt="image" />
             </div>
-
             <div className={styles.wpTextContainer9}>
               <h6 className={styles.wpCardHeader9}>2. Prop NFT</h6>
               <p className={styles.wpCardParagraph9}>
@@ -354,6 +353,74 @@ const Whitepaper = () => {
                 <br /> &nbsp;&nbsp;&nbsp;&nbsp;records and transparency in
                 ownership
               </p>
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.wpCard10}>
+          <div className={styles.wpCardContent10}>
+            <div className={styles.wpTextContainer10}>
+              <h6 className={styles.wpCardHeader10}>
+                3. Prop BaaS Pay
+                <br />
+                (Blockchain as a Service Pay)
+              </h6>
+              <p className={styles.wpCardParagraph10}>
+                Prop BaaS Pay is a blockchain-based
+                <br /> payment solution tailored for real estate
+                <br /> transactions. It addresses the need for
+                <br /> secure, efficient, and transparent payment
+                <br /> methods within the industry:
+              </p>
+
+              <p className={styles.wpCardParagraph10i}>
+                1. Smart Contract Integration: Prop BaaS Pay
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;seamlessly integrates with smart
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;contracts, automating payment releases
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;based on predefined conditions and
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;ensuring that funds are only
+                disbursed
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;when all parties fulfil their
+                obligations.
+              </p>
+              <p className={styles.wpCardParagraph10i}>
+                2. Secure Transactions: Blockchain
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;technology guarantees the security of
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;payments, reducing the risk of fraud and
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;disputes in real estate transactions.
+              </p>
+              <p className={styles.wpCardParagraph10i}>
+                3. Global Accessibility: The platform
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;facilitates cross-border transactions,
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;eliminating the complexities and delays
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;associated with traditional
+                international
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;payments.
+              </p>
+              <p className={styles.wpCardParagraph10i}>
+                4. Real-Time Tracking: Users can track
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;payment progress and receive real-time
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;notifications, enhancing transparency
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;throughout the payment process.
+              </p>
+            </div>
+            <div className={styles.wpImageContainer10}>
+              <Image src={wp2} alt="image" width={400} height={400} />
+              <Image src={wp3} alt="image" width={400} height={380} />
             </div>
           </div>
         </div>
