@@ -1320,7 +1320,7 @@
 
     .wpCard10 {
       width: 70rem;
-      height: 58rem;
+      height: 60rem;
       border: 1px #b4dfa1;
       border-radius: 2rem;
       background: linear-gradient(
@@ -1364,6 +1364,59 @@
         }
 
         .wpImageContainer10 {
+          margin-left: 2rem;
+          margin-bottom: 14rem;
+        }
+      }
+    }
+
+    .wpCard11 {
+      width: 70rem;
+      height: 55rem;
+      border: 1px #b4dfa1;
+      border-radius: 2rem;
+      background: linear-gradient(
+        to right,
+        rgba(119, 182, 91, 1),
+        rgba(119, 182, 91, 0)
+      );
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+
+      .wpCardContent11 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin: 3rem;
+
+        .wpTextContainer11 {
+          margin-bottom: 20rem;
+          margin-left: 2rem;
+          .wpCardHeader11 {
+            font-size: 35px;
+            font-weight: 200;
+            margin-bottom: 2rem;
+            margin-left: 2rem;
+            color: #132445;
+          }
+          .wpCardParagraph11 {
+            font-size: 22px;
+            font-weight: 200;
+            white-space: nowrap;
+            margin-bottom: 1rem;
+            margin-left: 2rem;
+          }
+          .wpCardParagraph11i {
+            font-size: 22px;
+            font-weight: 200;
+            white-space: nowrap;
+
+            margin-left: 4rem;
+          }
+        }
+
+        .wpImageContainer11 {
           margin-left: 2rem;
           margin-bottom: 18rem;
         }

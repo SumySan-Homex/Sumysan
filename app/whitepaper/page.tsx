@@ -298,7 +298,13 @@ const Whitepaper = () => {
             </div>
             <div className={styles.wpImageContainer8}>
               <Image src={wp2} alt="image" width={400} height={500} />
-              <Image src={wp3} alt="image" width={400} height={380} />
+              <Image
+                style={{ marginTop: 7 }}
+                src={wp3}
+                alt="image"
+                width={400}
+                height={380}
+              />
             </div>
           </div>
         </div>
@@ -420,7 +426,70 @@ const Whitepaper = () => {
             </div>
             <div className={styles.wpImageContainer10}>
               <Image src={wp2} alt="image" width={400} height={400} />
-              <Image src={wp3} alt="image" width={400} height={380} />
+              <Image
+                style={{ marginTop: 7 }}
+                src={wp3}
+                alt="image"
+                width={400}
+                height={380}
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.wpCard11}>
+          <div className={styles.wpCardContent11}>
+            <div className={styles.wpImageContainer11}>
+              <Image src={wp4} alt="image" height={550} />
+            </div>
+            <div className={styles.wpTextContainer11}>
+              <h6 className={styles.wpCardHeader11}>
+                4. Prop Legal for Smart Contracts
+              </h6>
+              <p className={styles.wpCardParagraph11}>
+                Prop Legal for Smart Contracts is a solution
+                <br /> designed to streamline the legal aspects of
+                <br /> real estate transactions using blockchain-
+                <br />
+                based smart contract templates:
+              </p>
+              <p className={styles.wpCardParagraph11i}>
+                1. Smart Contract Templates: The platform
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;provides a library of pre-designed,
+                legally
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;compliant smart contract
+                templates for
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;various real estate transactions,
+                from
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;sales to leases and more.
+              </p>
+              <p className={styles.wpCardParagraph11i}>
+                2. Customization: Users can customize
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;smart contracts to fit their
+                specific needs,
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;including property details, payment
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;terms, and legal requirements.
+              </p>
+              <p className={styles.wpCardParagraph11i}>
+                3. Automated Agreements: Smart contracts
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;automatically execute and enforce the
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;terms of the agreement, reducing
+                the
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;need for intermediaries and
+                minimizing
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;the risk of disputes.
+              </p>
+              <p className={styles.wpCardParagraph11i}>
+                4. Blockchain Notarization: All agreements
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;are securely notarized on the
+                blockchain,
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;ensuring their immutability and
+                legal validity.
+              </p>
             </div>
           </div>
         </div>
