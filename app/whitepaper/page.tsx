@@ -3,6 +3,7 @@ import Image from "next/image";
 import wp1 from "../../public/wp1.png";
 import wp2 from "../../public/wp2.png";
 import wp3 from "../../public/wp3.png";
+import wp4 from "../../public/wp4.png";
 import styles from "../../styles/page.module.css";
 
 const Whitepaper = () => {
@@ -298,6 +299,61 @@ const Whitepaper = () => {
             <div className={styles.wpImageContainer8}>
               <Image src={wp2} alt="image" width={400} height={500} />
               <Image src={wp3} alt="image" width={400} height={380} />
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.wpCard9}>
+          <div className={styles.wpCardContent9}>
+            <div className={styles.wpImageContainer9}>
+              <Image src={wp4} alt="image" />
+            </div>
+
+            <div className={styles.wpTextContainer9}>
+              <h6 className={styles.wpCardHeader9}>2. Prop NFT</h6>
+              <p className={styles.wpCardParagraph9}>
+                Prop NFT introduces the concept of Non-
+                <br />
+                Fungible Tokens (NFTs) to the world of real
+                <br /> estate. This component leverages blockchain
+                <br />
+                technology to represent ownership and
+                <br /> rights related to real estate assets in a digital,
+                <br /> unique, and secure manner:
+              </p>
+              <p className={styles.wpCardParagraph9i}>
+                1. Tokenized Ownership: Real estate assets
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;are represented as NFTs, each with a
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;unique digital identifier. These
+                tokens can
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;be bought, sold, and traded on
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;compatible platforms
+              </p>
+              <p className={styles.wpCardParagraph9i}>
+                2. Fractional Ownership: Prop NFT enables
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;fractional ownership, allowing
+                multiple
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;investors to hold shares in a
+                property. This
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;democratizes real estate investment and
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;opens up opportunities for a
+                broader
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;range of investors.
+              </p>
+              <p className={styles.wpCardParagraph9i}>
+                3. Property Documentation: All property-
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;related documents, such as titles,
+                deeds,
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;and contracts, are securely
+                stored on the
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;blockchain. This ensures tamper-proof
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;records and transparency in
+                ownership
+              </p>
             </div>
           </div>
         </div>
