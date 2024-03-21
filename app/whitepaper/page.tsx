@@ -493,6 +493,77 @@ const Whitepaper = () => {
             </div>
           </div>
         </div>
+
+        <div className={styles.wpCard12}>
+          <div className={styles.wpCardContent12}>
+            <div className={styles.wpTextContainer12}>
+              <h6 className={styles.wpCardHeader12}>5. Prop Invest</h6>
+              <p className={styles.wpCardParagraph12}>
+                Prop Invest is a comprehensive platform that
+                <br /> facilitates real estate investments while
+                <br /> introducing the concept of tokenization to
+                <br /> the sector:
+              </p>
+              <p className={styles.wpCardParagraph12i}>
+                1. Investment Opportunities: The platform
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;provides a marketplace of real
+                estate
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;investment opportunities,
+                allowing
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;individuals to invest in
+                properties with
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;various risk profiles and
+                potential returns.
+              </p>
+              <p className={styles.wpCardParagraph12i}>
+                2. Tokenization: Real estate assets are
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;tokenized, enabling fractional
+                ownership
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;and liquidity in the real estate
+                market.
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;Investors can buy and trade property
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;tokens easily.
+              </p>
+              <p className={styles.wpCardParagraph12i}>
+                3. Data-Driven Decision-Making: Prop Invest
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;utilizes AI and data analytics to
+                offer
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;investment insights and
+                predictive
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;analytics, helping users make
+                informed
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;investment choices.
+              </p>
+              <p className={styles.wpCardParagraph12i}>
+                4. Diversification: Users can diversify their
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;investment portfolios by
+                allocating funds
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;to different real estate assets
+                across
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;geographic regions and property
+                types.
+              </p>
+              <p className={styles.wpCardParagraph12i}>
+                5. Security and Transparency: Blockchain
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;technology ensures the security
+                and
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;transparency of all investment
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;transactions and records.
+              </p>
+            </div>
+            <div className={styles.wpImageContainer12}>
+              <Image src={wp2} alt="image" width={400} height={400} />
+              <Image
+                style={{ marginTop: 7 }}
+                src={wp3}
+                alt="image"
+                width={400}
+                height={380}
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
