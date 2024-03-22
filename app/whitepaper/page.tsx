@@ -571,7 +571,7 @@ const Whitepaper = () => {
               <Image src={wp4} alt="image" height={550} />
             </div>
             <div className={styles.wpTextContainer13}>
-              <h6 className={styles.wpCardHeader13}>4. Prop Lab</h6>
+              <h6 className={styles.wpCardHeader13}>6. Prop Lab</h6>
               <p className={styles.wpCardParagraph13}>
                 Prop Lab serves as an educational and
                 <br /> research hub within the Sumysan ecosystem,
