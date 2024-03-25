@@ -621,6 +621,67 @@ const Whitepaper = () => {
             </div>
           </div>
         </div>
+
+        <div className={styles.wpCard14}>
+          <div className={styles.wpCardContent14}>
+            <div className={styles.wpTextContainer14}>
+              <h6 className={styles.wpCardHeader14}>7. Prop Co-Own</h6>
+              <p className={styles.wpCardParagraph14}>
+                Prop Co-Own revolutionizes property
+                <br /> ownership by enabling multiple investors to
+                <br /> co-own a property asset:
+              </p>
+              <p className={styles.wpCardParagraph14i}>
+                1. Co-Ownership Agreements: Prop Co-Own
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;facilitates the creation of
+                co-ownership
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;agreements, outlining the rights,
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;responsibilities, and financial
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;contributions of each co-owner.
+              </p>
+              <p className={styles.wpCardParagraph14i}>
+                2. Fractional Ownership: Co-ownership
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;allows investors to share the
+                financial
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;burden and benefits of owning
+                property,
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;making real estate investment
+                more
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;accessible.
+              </p>
+              <p className={styles.wpCardParagraph14i}>
+                3. Smart Contracts: Smart contracts
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;automate co-ownership
+                arrangements,
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;ensuring that each
+                co-owner&apos;s share and
+                <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;obligations are transparently recorded
+                on
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;the blockchain.
+              </p>
+              <p className={styles.wpCardParagraph14i}>
+                4. Exit Strategies: The platform offers
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;predefined exit strategies for
+                co-owners,
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;allowing for a seamless
+                transition when a
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;co-owner decides to sell their
+                share.
+              </p>
+            </div>
+            <div className={styles.wpImageContainer14}>
+              <Image src={wp2} alt="image" width={400} height={400} />
+              <Image
+                style={{ marginTop: 7 }}
+                src={wp3}
+                alt="image"
+                width={400}
+                height={380}
+              />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
