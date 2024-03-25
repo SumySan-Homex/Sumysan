@@ -682,6 +682,58 @@ const Whitepaper = () => {
             </div>
           </div>
         </div>
+
+        <div className={styles.wpCard15}>
+          <div className={styles.wpCardContent15}>
+            <div className={styles.wpImageContainer15}>
+              <Image src={wp4} alt="image" height={550} />
+            </div>
+            <div className={styles.wpTextContainer15}>
+              <h6 className={styles.wpCardHeader15}>8. Prop Venture</h6>
+              <p className={styles.wpCardParagraph15}>
+                Prop Venture serves as a platform for
+                <br /> property loans and financing solutions,
+                <br /> facilitating real estate investments and
+                <br /> property development projects:
+              </p>
+              <p className={styles.wpCardParagraph15i}>
+                1. Loan Options: Prop Venture offers various
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;loan products, including
+                mortgages,
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;construction loans, and
+                renovation
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;financing, catering to the
+                diverse needs of
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;property buyers and developers.
+              </p>
+              <p className={styles.wpCardParagraph15i}>
+                2. Blockchain-Based Lending: The platform
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;leverages blockchain for secure
+                and
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;transparent lending, reducing the
+                risk of
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;default and fraud.
+              </p>
+              <p className={styles.wpCardParagraph15i}>
+                3. Investor Participation: Investors can
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;participate in real estate
+                financing by
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;providing funds for property
+                loans and
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;earning returns.
+              </p>
+              <p className={styles.wpCardParagraph15i}>
+                4. Automated Loan Management: Smart
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;contracts manage loan
+                disbursements,
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;repayment schedules, and interest
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;calculations, ensuring accuracy
+                and
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;transparency.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
