@@ -1,8 +1,9 @@
 "use client";
 import React from "react";
-// import Image from "next/image";
+import Image from "next/image";
 // import home1 from "../public/home1.png";
 // import home2 from "../public/home2.png";
+import homepage from "../public/homepage.gif";
 import Slideshow from "./Slideshow";
 import styles from "../styles/about.module.css";
 
@@ -105,10 +106,10 @@ const About = () => {
         </div>
 
         <div>
-          {/* <Image src={home1} alt="estate" />
-          <Image className={styles.images} src={home2} alt="house" /> */}
-          <Slideshow images={firstSet} />
-          <Slideshow images={secondSet} />
+          <Image className={styles.images} src={homepage} alt="image" />
+
+          {/* <Slideshow images={firstSet} />
+          <Slideshow images={secondSet} /> */}
         </div>
       </div>
     </div>
