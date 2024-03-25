@@ -734,6 +734,122 @@ const Whitepaper = () => {
             </div>
           </div>
         </div>
+
+        <div className={styles.wpCard16}>
+          <div className={styles.wpCardContent16}>
+            <div className={styles.wpTextContainer16}>
+              <h6 className={styles.wpCardHeader16}>9. Prop Management</h6>
+              <p className={styles.wpCardParagraph16}>
+                Prop Management is a comprehensive
+                <br /> solution for property management, catering
+                <br /> to property owners, landlords, and property
+                <br /> management companies:
+              </p>
+              <p className={styles.wpCardParagraph16i}>
+                1. Property Listings: Property owners can list
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;their properties on the platform,
+                reaching
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;a wider audience of potential
+                renters or
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;buyers.
+              </p>
+              <p className={styles.wpCardParagraph16i}>
+                2. Maintenance and Repairs: The platform
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;offers tools for property owners
+                and
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;managers to schedule and track
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;maintenance and repair tasks
+                efficiently.
+              </p>
+              <p className={styles.wpCardParagraph16i}>
+                3. Lease Management: Users can manage
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;leases, rental agreements, and
+                tenant
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;communications through the
+                platform,
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;reducing paperwork and
+                administrative
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;overhead.
+              </p>
+              <p className={styles.wpCardParagraph16i}>
+                4. Payment Processing: Prop Management
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;facilitates rent collection,
+                utility payments,
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;and other financial transactions,
+                ensuring
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;timely and accurate payments.
+              </p>
+              <p className={styles.wpCardParagraph16i}>
+                5. Smart Home Integration: The platform
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;may incorporate smart home
+                technology
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;for enhanced property monitoring
+                and
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;control.
+              </p>
+            </div>
+            <div className={styles.wpImageContainer16}>
+              <Image src={wp2} alt="image" width={400} height={400} />
+              <Image
+                style={{ marginTop: 7 }}
+                src={wp3}
+                alt="image"
+                width={400}
+                height={380}
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.wpCard17}>
+          <div className={styles.wpCardContent17}>
+            <div className={styles.wpImageContainer17}>
+              <Image src={wp4} alt="image" height={550} />
+            </div>
+            <div className={styles.wpTextContainer17}>
+              <h6 className={styles.wpCardHeader17}>8. Prop Exchange</h6>
+              <p className={styles.wpCardParagraph17}>
+                Prop Exchange is a cutting-edge platform
+              </p>
+              <p className={styles.wpCardParagraph17i}>
+                1. Smart Contract Templates: The platform
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;provides a library of
+                pre-designed, legally
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;compliant smart contract
+                templates for
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;various real estate transactions,
+                from
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;sales to leases and more.
+              </p>
+              <p className={styles.wpCardParagraph17i}>
+                2. Customization: Users can customize
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;smart contracts to fit their
+                specific needs,
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;including property details,
+                payment
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;terms, and legal requirements.
+              </p>
+              <p className={styles.wpCardParagraph17i}>
+                3. Automated Agreements: Smart contracts
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;automatically execute and enforce
+                the
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;terms of the agreement, reducing
+                the
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;need for intermediaries and
+                minimizing
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;the risk of disputes.
+              </p>
+              <p className={styles.wpCardParagraph17i}>
+                4.Blockchain Notarization: All agreements
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;are securely notarized on the
+                blockchain,
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;ensuring their immutability and
+                legal
+                <br /> &nbsp;&nbsp;&nbsp;&nbsp;validity.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

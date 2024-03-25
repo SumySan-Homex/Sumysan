@@ -1633,6 +1633,112 @@
         }
       }
     }
+
+    .wpCard16 {
+      width: 70rem;
+      height: 55rem;
+      border: 1px #b4dfa1;
+      border-radius: 2rem;
+      background: linear-gradient(
+        to right,
+        rgba(119, 182, 91, 1),
+        rgba(119, 182, 91, 0)
+      );
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+
+      .wpCardContent16 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin: 3rem;
+
+        .wpTextContainer16 {
+          margin-bottom: 20rem;
+          margin-left: 2rem;
+          .wpCardHeader16 {
+            font-size: 35px;
+            font-weight: 200;
+            margin-bottom: 2rem;
+            margin-left: 2rem;
+            color: #132445;
+          }
+          .wpCardParagraph16 {
+            font-size: 22px;
+            font-weight: 200;
+            white-space: nowrap;
+            margin-bottom: 1rem;
+            margin-left: 2rem;
+          }
+          .wpCardParagraph16i {
+            font-size: 22px;
+            font-weight: 200;
+            white-space: nowrap;
+
+            margin-left: 4rem;
+          }
+        }
+
+        .wpImageContainer16 {
+          margin-left: 2rem;
+          margin-bottom: 18rem;
+        }
+      }
+    }
+
+    .wpCard17 {
+      width: 70rem;
+      height: 55rem;
+      border: 1px #b4dfa1;
+      border-radius: 2rem;
+      background: linear-gradient(
+        to right,
+        rgba(119, 182, 91, 1),
+        rgba(119, 182, 91, 0)
+      );
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+
+      .wpCardContent17 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin: 3rem;
+
+        .wpTextContainer17 {
+          margin-bottom: 20rem;
+          margin-left: 2rem;
+          .wpCardHeader17 {
+            font-size: 35px;
+            font-weight: 200;
+            margin-bottom: 2rem;
+            margin-left: 2rem;
+            color: #132445;
+          }
+          .wpCardParagraph17 {
+            font-size: 22px;
+            font-weight: 200;
+            white-space: nowrap;
+            margin-bottom: 1rem;
+            margin-left: 2rem;
+          }
+          .wpCardParagraph17i {
+            font-size: 22px;
+            font-weight: 200;
+            white-space: nowrap;
+
+            margin-left: 4rem;
+          }
+        }
+
+        .wpImageContainer17 {
+          margin-left: 2rem;
+          margin-bottom: 18rem;
+        }
+      }
+    }
   }
 }
 
