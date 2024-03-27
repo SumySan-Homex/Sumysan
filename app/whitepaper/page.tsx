@@ -4,6 +4,18 @@ import wp1 from "../../public/wp1.png";
 import wp2 from "../../public/wp2.png";
 import wp3 from "../../public/wp3.png";
 import wp4 from "../../public/wp4.png";
+import wp5 from "../../public/wp5.png";
+import wp6 from "../../public/wp6.png";
+import wp7 from "../../public/wp7.png";
+import wp8 from "../../public/wp8.png";
+import wp9 from "../../public/wp9.png";
+import wp10 from "../../public/wp10.png";
+import wp11 from "../../public/wp11.png";
+import wp12 from "../../public/wp12.png";
+import wp13 from "../../public/wp13.png";
+import wp14 from "../../public/wp14.png";
+import wp15 from "../../public/wp15.png";
+import wp16 from "../../public/wp16.png";
 import styles from "../../styles/page.module.css";
 
 const Whitepaper = () => {
@@ -425,10 +437,10 @@ const Whitepaper = () => {
               </p>
             </div>
             <div className={styles.wpImageContainer10}>
-              <Image src={wp2} alt="image" width={400} height={400} />
+              <Image src={wp5} alt="image" width={400} height={400} />
               <Image
                 style={{ marginTop: 7 }}
-                src={wp3}
+                src={wp6}
                 alt="image"
                 width={400}
                 height={380}
@@ -440,7 +452,7 @@ const Whitepaper = () => {
         <div className={styles.wpCard11}>
           <div className={styles.wpCardContent11}>
             <div className={styles.wpImageContainer11}>
-              <Image src={wp4} alt="image" height={550} />
+              <Image src={wp7} alt="image" height={550} />
             </div>
             <div className={styles.wpTextContainer11}>
               <h6 className={styles.wpCardHeader11}>
@@ -553,10 +565,10 @@ const Whitepaper = () => {
               </p>
             </div>
             <div className={styles.wpImageContainer12}>
-              <Image src={wp2} alt="image" width={400} height={400} />
+              <Image src={wp8} alt="image" width={400} height={400} />
               <Image
                 style={{ marginTop: 7 }}
-                src={wp3}
+                src={wp9}
                 alt="image"
                 width={400}
                 height={380}
@@ -568,7 +580,7 @@ const Whitepaper = () => {
         <div className={styles.wpCard13}>
           <div className={styles.wpCardContent13}>
             <div className={styles.wpImageContainer13}>
-              <Image src={wp4} alt="image" height={550} />
+              <Image src={wp10} alt="image" height={550} />
             </div>
             <div className={styles.wpTextContainer13}>
               <h6 className={styles.wpCardHeader13}>6. Prop Lab</h6>
@@ -671,10 +683,10 @@ const Whitepaper = () => {
               </p>
             </div>
             <div className={styles.wpImageContainer14}>
-              <Image src={wp2} alt="image" width={400} height={400} />
+              <Image src={wp11} alt="image" width={400} height={400} />
               <Image
                 style={{ marginTop: 7 }}
-                src={wp3}
+                src={wp12}
                 alt="image"
                 width={400}
                 height={380}
@@ -686,7 +698,7 @@ const Whitepaper = () => {
         <div className={styles.wpCard15}>
           <div className={styles.wpCardContent15}>
             <div className={styles.wpImageContainer15}>
-              <Image src={wp4} alt="image" height={550} />
+              <Image src={wp13} alt="image" height={550} />
             </div>
             <div className={styles.wpTextContainer15}>
               <h6 className={styles.wpCardHeader15}>8. Prop Venture</h6>
@@ -789,10 +801,10 @@ const Whitepaper = () => {
               </p>
             </div>
             <div className={styles.wpImageContainer16}>
-              <Image src={wp2} alt="image" width={400} height={400} />
+              <Image src={wp14} alt="image" width={400} height={400} />
               <Image
                 style={{ marginTop: 7 }}
-                src={wp3}
+                src={wp15}
                 alt="image"
                 width={400}
                 height={380}
@@ -804,10 +816,10 @@ const Whitepaper = () => {
         <div className={styles.wpCard17}>
           <div className={styles.wpCardContent17}>
             <div className={styles.wpImageContainer17}>
-              <Image src={wp4} alt="image" height={550} />
+              <Image src={wp16} alt="image" height={550} />
             </div>
             <div className={styles.wpTextContainer17}>
-              <h6 className={styles.wpCardHeader17}>8. Prop Exchange</h6>
+              <h6 className={styles.wpCardHeader17}>10. Prop Exchange</h6>
               <p className={styles.wpCardParagraph17}>
                 Prop Exchange is a cutting-edge platform
               </p>
