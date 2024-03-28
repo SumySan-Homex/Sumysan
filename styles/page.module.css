@@ -969,7 +969,7 @@
 
     .wpCard1 {
       width: 70rem;
-      height: 23rem;
+      height: 15rem;
       border: 1px #b4dfa1;
       border-radius: 2rem;
       background: linear-gradient(
@@ -982,19 +982,24 @@
 
       .wpCardContents1 {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-around;
         align-items: center;
         margin: 3rem;
 
         .wpCardHeader1 {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
           font-size: 25px;
           font-weight: 200;
           margin-bottom: 2rem;
         }
 
         .wpCardParagraph1 {
-          font-weight: 200;
+          font-size: 20px;
+          font-weight: 100;
         }
       }
     }
@@ -1014,7 +1019,7 @@
 
       .wpCardContents2 {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-around;
         align-items: center;
         margin: 3rem;
@@ -1045,7 +1050,7 @@
 
       .wpCardContents3 {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-around;
         align-items: center;
         margin: 3rem;
@@ -1077,7 +1082,7 @@
 
       .wpCardContents4 {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-around;
         align-items: center;
         margin: 3rem;
@@ -1108,7 +1113,7 @@
 
       .wpCardContents5 {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-around;
         align-items: center;
         margin: 3rem;

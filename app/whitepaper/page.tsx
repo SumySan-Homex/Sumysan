@@ -53,22 +53,21 @@ const Whitepaper = () => {
             <div>
               <h4 className={styles.wpCardHeader1}>1. Complex Transactions:</h4>
               <p className={styles.wpCardParagraph1}>
-                Real estate transactions have long been known
-                <br /> for their complexity, often involving numerous
-                <br /> intermediaries, cumbersome paperwork, and
-                <br />
-                prolonged timelines. This complexity can deter
-                <br /> potential buyers and sellers and lead to
-                <br /> frustration.
+                Real estate transactions have long been known for their
+                complexity, often involving
+                <br /> numerous intermediaries, cumbersome paperwork, and
+                prolonged timelines. This
+                <br /> complexity can deter potential buyers and sellers and
+                lead to frustration.
               </p>
             </div>
-            <Image src={wp1} alt="wp1" />
+            {/* <Image src={wp1} alt="wp1" /> */}
           </div>
         </div>
 
         <div className={styles.wpCard2}>
           <div className={styles.wpCardContents2}>
-            <Image src={wp1} alt="wp1" />
+            {/* <Image src={wp1} alt="wp1" /> */}
             <div>
               <h4 className={styles.wpCardHeader2}>
                 2.  Lack of Transparency:
@@ -95,13 +94,13 @@ const Whitepaper = () => {
                 <br /> build wealth through property.
               </p>
             </div>
-            <Image src={wp1} alt="wp1" />
+            {/* <Image src={wp1} alt="wp1" /> */}
           </div>
         </div>
 
         <div className={styles.wpCard4}>
           <div className={styles.wpCardContents4}>
-            <Image src={wp1} alt="wp1" />
+            {/* <Image src={wp1} alt="wp1" /> */}
             <div>
               <h4 className={styles.wpCardHeader4}>4.  Data Silos:</h4>
               <p className={styles.wpCardParagraph4}>
@@ -126,7 +125,7 @@ const Whitepaper = () => {
                 <br /> estate transactions.
               </p>
             </div>
-            <Image src={wp1} alt="wp1" />
+            {/* <Image src={wp1} alt="wp1" /> */}
           </div>
         </div>
 
